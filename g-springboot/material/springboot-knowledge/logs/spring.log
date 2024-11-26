@@ -1,0 +1,19 @@
+2024-08-22T15:26:34.859+08:00  INFO 16848 --- [springboot-knowledge] [main] springboot.Starter                       : Starting Starter using Java 21.0.4 with PID 16848 (D:\知识\springboot\素材\springboot-knowledge\target\classes started by 沐火 in D:\知识\springboot\素材\springboot-knowledge)
+2024-08-22T15:26:34.915+08:00  INFO 16848 --- [springboot-knowledge] [main] springboot.Starter                       : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T15:26:38.270+08:00  INFO 16848 --- [springboot-knowledge] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-08-22T15:26:38.295+08:00  INFO 16848 --- [springboot-knowledge] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T15:26:38.296+08:00  INFO 16848 --- [springboot-knowledge] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T15:26:38.393+08:00  INFO 16848 --- [springboot-knowledge] [main] o.a.c.c.C.[.[.[/springboot-knowledge]    : Initializing Spring embedded WebApplicationContext
+2024-08-22T15:26:38.393+08:00  INFO 16848 --- [springboot-knowledge] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3341 ms
+2024-08-22T15:26:40.419+08:00  INFO 16848 --- [springboot-knowledge] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/springboot-knowledge'
+2024-08-22T15:26:40.589+08:00  INFO 16848 --- [springboot-knowledge] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8100 (http)
+2024-08-22T15:26:40.591+08:00  INFO 16848 --- [springboot-knowledge] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T15:26:40.592+08:00  INFO 16848 --- [springboot-knowledge] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T15:26:40.643+08:00  INFO 16848 --- [springboot-knowledge] [main] o.a.c.c.C.[.[localhost].[/management]    : Initializing Spring embedded WebApplicationContext
+2024-08-22T15:26:40.643+08:00  INFO 16848 --- [springboot-knowledge] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 216 ms
+2024-08-22T15:26:40.697+08:00  INFO 16848 --- [springboot-knowledge] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-22T15:26:40.785+08:00  INFO 16848 --- [springboot-knowledge] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8100 (http) with context path '/management'
+2024-08-22T15:26:40.814+08:00  INFO 16848 --- [springboot-knowledge] [main] springboot.Starter                       : Started Starter in 7.841 seconds (process running for 8.786)
+2024-08-22T15:26:48.030+08:00  INFO 16848 --- [springboot-knowledge] [http-nio-8081-exec-5] o.a.c.c.C.[.[.[/springboot-knowledge]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-22T15:26:48.031+08:00  INFO 16848 --- [springboot-knowledge] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-22T15:26:48.033+08:00  INFO 16848 --- [springboot-knowledge] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

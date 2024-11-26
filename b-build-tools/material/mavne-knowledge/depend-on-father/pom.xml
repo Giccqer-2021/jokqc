@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent><!--这是maven的子模块,使用parent标签指定其父模块-->
+        <groupId>org.giccqer</groupId>
+        <artifactId>mavne-knowledge</artifactId>
+        <version>0.0.1</version>
+    </parent>
+
+    <artifactId>depend-on-father</artifactId> <!--子模块的id,如果公司id和版本号与父模块相同则可以省略groupId和version-->
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency><!--声明依赖父标签dependencyManagement中的项目,子模块的依赖版本号可以不声明.若声明则会覆盖父标签的版本号-->
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+        </dependency>
+        <dependency> <!--同理,不过声明导入的是父依赖的父依赖中的dependencyManagement标签中的项目-->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency><!--同理,根据父标签的dependencyManagement标签中的依赖声明需要的依赖-->
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+    </dependencies>
+</project>

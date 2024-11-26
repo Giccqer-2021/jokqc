@@ -1,0 +1,74 @@
+spring:
+  application:
+    name: CLIENT-CONSUMER
+  cloud:
+    openfeign:
+      httpclient:
+        hc5:
+          enabled: true #默认为true
+      client:
+        config: #此处可以配置全局参数,也可单独为某个Feign接口配置参数,这里仅用来配置超时相关的设置(单位毫秒)
+          default: # default 为默认配置
+            connect-timeout: 100000 #连接超时时间,如果在该时间内未能与网站建立tcp握手连接则报错,默认10秒
+            read-timeout: 600000 #读取超时时间,如果在该时间内未能从网站中获取数据则报错,默认60秒
+          feignApi: #设置特定的FeignApi配置,该配置的名称要与@FeignClient注解中的name,value或contextId属性值一致,三者中要优先以contextId为主
+            connect-timeout: 1000 #1秒
+            read-timeout: 2000 #2秒
+server:
+  port: 8090 #这样与其他客户端的区分度大一些
+eureka:
+  instance:
+    instance-id: CONSUMER
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,refresh #这里多开放了一个 refresh 端口,用于在配置中心配置发生变化时手动刷新本地配置,使用post方法访问
+  info:
+    env:
+      enabled: true
+info:
+  app:
+    name: CLIENT-CONSUMER
+    status: CONSUMER客户端运转良好
+
+logging: #日志配置
+  level:
+    org.giccqer.consumer.feign: debug
+
+resilience4j: #断路器配置
+  circuitbreaker:
+    configs:
+      default: #默认配置,所有没有单独配置的熔断器实例默认使用该配置
+        slidingWindowType: COUNT_BASED #滑动窗口类型,即判断失败率的方式,COUNT_BASED 表示按失败次数计算,TIME_BASED 表示按一定时间内的请求计算
+        failureRateThreshold: 30.0 #当请求失败率达到多少百分比时,断路器断开,并进行服务降级
+        sliding-window-size: 5 #若为 COUNT_BASED ,则按照最近多少次的请求计算失败率.若为 TIME_BASED ,则按照最近多少秒内的请求计算失败率
+        minimum-number-of-calls: 5 #至少接收到多少次请求才开始计算失败率,一般与 sliding-window-size 配置相同
+        waitDurationInOpenState: 3s #从断开状态到半开状态需要等待的秒数
+        permitted-number-of-calls-in-half-open-state: 5 #半开状态下,允许通过的请求数量
+        slowCallDurationThreshold: 5s #若某些请求所需时间超过多少秒,则这些请求视为慢调用.慢调用一般被视为失败调用
+        slowCallRateThreshold: 50.0 #当慢调用的百分比超过多少时,断路器断开
+        automatic-transition-from-open-to-half-open-enabled: true #即使没有请求,是否会自动将断路器从断开状态转换为半开状态
+        record-exceptions: #会被计入失败率的异常的白名单
+          - java.lang.RuntimeException
+        #ignore-exceptions: #不会被计入失败率的异常的黑名单
+    instances: #为某些特定的实例单独配置熔断器参数,可选
+      sendRandomNumberService: #其属性要与 @CircuitBreaker 注解中的 name 属性一致
+        baseConfig: default #继承默认配置,若有需要可以单独配置某些参数,可配置的参数同上所写
+        failureRateThreshold: 50.0
+        waitDurationInOpenState: 5s
+  ratelimiter: #限流器相关的配置,与熔断器相似,也可以单独配置某个限流器实例
+    configs:
+      default:
+        limitForPeriod: 5 #每个周期最多允许通过的请求数量,超过这个值的请求将会被限制
+        limitRefreshPeriod: 3s #每个周期的时长
+        timeoutDuration: 0ms #被限制的请求最多等待被限制多久,若超过这个时长则不再等待而是直接返回异常,设置为0则不会等待
+
+custom-cars: #自定义的一些配置,加载顺序中等,会覆盖bootstrap文件中的配置但会被配置中心的配置所覆盖
+  train: 🚄🚄🚄
+  automobile: 🚘🚘🚘
+  plane: 🛫🛫🛫

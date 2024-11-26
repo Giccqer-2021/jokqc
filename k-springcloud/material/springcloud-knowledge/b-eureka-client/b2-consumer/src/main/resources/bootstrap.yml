@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      #uri: http://localhost:8110 #配置中心url,如果启用配置中心发现服务则不会使用到它
+      label: master #配置文件的分支,对应git仓库的分支
+      name: config #配置文件的名称
+      profile: cars #配置文件的环境,与name一同指明了配置文件的文件名,该文件的文件名是 config-cars.yml
+      discovery:
+        enabled: true #启用服务发现,在注册中心中查找配置中心的实例名,启用后建议将uri配置移除
+        service-id: CONFIGURATION-CENTER #在注册中心中要查找的配置中心的实例名
+
+custom-cars: #自定义的一些配置,在bootstrap文件中最先加载但也最容易被覆盖
+  train: 🚍🚍🚍🚍🚍🚍
+  automobile: 🚜🚜🚜🚜🚜🚜
+  plane: 🚀🚀🚀🚀🚀🚀

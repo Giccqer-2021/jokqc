@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: CLIENT-PROVIDER #必须写上
+server:
+  port: 8080 #tomcat默认端口号
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: PROVIDER #不可与在注册中心中的其他连接实例的该值相同!
+    prefer-ip-address: true #优先使用IP地址而非域名作为注册中心实例的主机名
+    status-page-url-path: /actuator/info #自定义监控信息页面地址,默认就是 /actuator/info
+    lease-renewal-interval-in-seconds: 30 #每隔多少秒向服务端发送心跳报文,默认30秒
+    lease-expiration-duration-in-seconds: 90 #超过多少秒没收到服务器返回的心跳报文就认为服务器已宕机,默认90秒
+  client:
+    service-url: #服务端(注册中心)地址,可配置多个
+      defaultZone: http://localhost:8761/eureka
+#同理,可选配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info
+  info:
+    env:
+      enabled: true
+info:
+  app:
+    name: CLIENT-${eureka.instance.instance-id}
+    status: ${eureka.instance.instance-id}客户端运转良好

@@ -1,0 +1,5 @@
+spring: #使用该方法配置的用户名密码已失效
+  security:
+    user:
+      name: rnfmabj
+      password: 2.71828

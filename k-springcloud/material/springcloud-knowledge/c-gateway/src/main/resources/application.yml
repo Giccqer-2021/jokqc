@@ -1,0 +1,80 @@
+spring:
+  main:
+    #NONE:不启动内嵌的服务器,也不执行web应用的配置
+    #REACTIVE:启动内嵌的响应式服务器,适用于响应式(WebFlux)应用
+    #SERVLET:启动内嵌的Servlet容器,适用于基于Servlet的应用(如Spring MVC)
+    web-application-type: reactive #可选配置,如果你导入了 Springboot-web 包但不想换掉它则写上这个
+  application:
+    name: GATEWAY
+  cloud:
+    # 配置网关
+    gateway:
+      default-filters: #默认过滤器,优先级最低
+        - AddResponseHeader=DefaultInfo,this-from-springcloud #添加响应头
+      discovery:
+        locator:
+          enabled: true #开启服务发现,开启后将自动识别特定请求地址请求中包含的实例名,并在注册中心寻找目标实例的url
+          lower-case-service-id: true #请求地址中的实例名若是小写,则是否将其视为大写
+      routes: #配置路由,即地址和端口的映射
+        - id: send-to-apifox #路由的id,需要全局唯一,本例配置了将本机地址路由到外网的方法
+          uri: https://echo.apifox.com #转换到的目标地址,匹配到 apifox 端口测试网站中
+          predicates: #断言,要匹配的地址
+            - Path=/send-to-apifox/** #一个*代表一个路径,两个*代表多个路径,路径以 / 隔开
+          filters:
+            - RewritePath=/send-to-apifox(?<segment>.*), /get$\{segment} #重写请求地址,使用了正则表达式重新将请求参数置入新地址中
+
+        - id: provider-hello #匹配到本机 provider 提供者中,访问hello方法
+          uri: http://localhost:8080
+          predicates:
+            - Path=/provide-hello-info,/
+
+        - id: provider-str #匹配到本机 provider 提供者中,访问需要参数的方法
+          uri: http://localhost:8080
+          predicates:
+            - Path=/provide-str/{info}
+          filters:
+            - StripPrefix=1 #删除请求路径中第一个路径参数,注意:该删除功能无法识别地址中的?问号请求参数
+            - PrefixPath=/feign-str #额外增加的前缀
+
+        - id: provider-hello-by-server
+          #匹配到注册中心中名为 CLIENT-PROVIDER 提供者的服务中,可能会对应多个提供者,使用负载均衡策略选择其中一个提供者
+          uri: lb://CLIENT-PROVIDER
+          predicates:
+            - Path=/provide-hello-by-server
+          filters:
+            - StripPrefix=1
+
+        - id: gateway-predicate #用于测试断言(即路径匹配规则)和局部过滤器的配置
+          uri: lb://CLIENT-PROVIDER
+          predicates:
+            - Path=/gateway-predicate/**
+            - Query=username,Ishmael #必须要有 username=Ishmael 请求参数,等号及后面的内容可以不写,等号后面的内容可以匹配正则表达式
+            - Query=password,654321 #必须要有 password=654321
+            - Method=GET #支持的请求方法
+            - After=2024-11-23T07:36:00.000+08:00[Asia/Shanghai] #什么时间之后可以访问该地址
+            - Before=2025-11-23T07:36:00.000+08:00[Asia/Shanghai] #什么时间之前可以访问该地址
+          filters:
+            - RewritePath=/gateway-predicate(?<segment>.*), /get-user$\{segment} #别问这是啥,我也不懂
+            - AddRequestHeader=Authorization,Ishmael #添加请求头
+
+server:
+  port: 8100 #端口号,设置得大一点便于区分
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: GATEWAY
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info
+  info:
+    env:
+      enabled: true
+info:
+  app:
+    name: GATEWAY
+    status: GATEWAY网关运转良好

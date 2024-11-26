@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mybatis逆向工程自动生成的 Mapper xml 文件-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mybatis.mapper.DormitoryTableMapper">
+  <resultMap id="BaseResultMap" type="mybatis.entity.DormitoryTable">
+    <id column="student_id" jdbcType="INTEGER" property="studentId" />
+    <result column="student_name" jdbcType="VARCHAR" property="studentName" />
+    <result column="is_male" jdbcType="TINYINT" property="isMale" />
+    <result column="student_phone" jdbcType="BIGINT" property="studentPhone" />
+    <result column="notes" jdbcType="VARCHAR" property="notes" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    student_id, student_name, is_male, student_phone, notes
+  </sql>
+  <select id="selectByExample" parameterType="mybatis.entity.DormitoryTableExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from dormitory_table
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from dormitory_table
+    where student_id = #{studentId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from dormitory_table
+    where student_id = #{studentId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="mybatis.entity.DormitoryTableExample">
+    delete from dormitory_table
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="mybatis.entity.DormitoryTable">
+    insert into dormitory_table (student_id, student_name, is_male, 
+      student_phone, notes)
+    values (#{studentId,jdbcType=INTEGER}, #{studentName,jdbcType=VARCHAR}, #{isMale,jdbcType=TINYINT}, 
+      #{studentPhone,jdbcType=BIGINT}, #{notes,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="mybatis.entity.DormitoryTable">
+    insert into dormitory_table
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="studentId != null">
+        student_id,
+      </if>
+      <if test="studentName != null">
+        student_name,
+      </if>
+      <if test="isMale != null">
+        is_male,
+      </if>
+      <if test="studentPhone != null">
+        student_phone,
+      </if>
+      <if test="notes != null">
+        notes,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="studentId != null">
+        #{studentId,jdbcType=INTEGER},
+      </if>
+      <if test="studentName != null">
+        #{studentName,jdbcType=VARCHAR},
+      </if>
+      <if test="isMale != null">
+        #{isMale,jdbcType=TINYINT},
+      </if>
+      <if test="studentPhone != null">
+        #{studentPhone,jdbcType=BIGINT},
+      </if>
+      <if test="notes != null">
+        #{notes,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="mybatis.entity.DormitoryTableExample" resultType="java.lang.Long">
+    select count(*) from dormitory_table
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update dormitory_table
+    <set>
+      <if test="row.studentId != null">
+        student_id = #{row.studentId,jdbcType=INTEGER},
+      </if>
+      <if test="row.studentName != null">
+        student_name = #{row.studentName,jdbcType=VARCHAR},
+      </if>
+      <if test="row.isMale != null">
+        is_male = #{row.isMale,jdbcType=TINYINT},
+      </if>
+      <if test="row.studentPhone != null">
+        student_phone = #{row.studentPhone,jdbcType=BIGINT},
+      </if>
+      <if test="row.notes != null">
+        notes = #{row.notes,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="example != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update dormitory_table
+    set student_id = #{row.studentId,jdbcType=INTEGER},
+      student_name = #{row.studentName,jdbcType=VARCHAR},
+      is_male = #{row.isMale,jdbcType=TINYINT},
+      student_phone = #{row.studentPhone,jdbcType=BIGINT},
+      notes = #{row.notes,jdbcType=VARCHAR}
+    <if test="example != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="mybatis.entity.DormitoryTable">
+    update dormitory_table
+    <set>
+      <if test="studentName != null">
+        student_name = #{studentName,jdbcType=VARCHAR},
+      </if>
+      <if test="isMale != null">
+        is_male = #{isMale,jdbcType=TINYINT},
+      </if>
+      <if test="studentPhone != null">
+        student_phone = #{studentPhone,jdbcType=BIGINT},
+      </if>
+      <if test="notes != null">
+        notes = #{notes,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where student_id = #{studentId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="mybatis.entity.DormitoryTable">
+    update dormitory_table
+    set student_name = #{studentName,jdbcType=VARCHAR},
+      is_male = #{isMale,jdbcType=TINYINT},
+      student_phone = #{studentPhone,jdbcType=BIGINT},
+      notes = #{notes,jdbcType=VARCHAR}
+    where student_id = #{studentId,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,7 @@
+spring:
+  servlet:
+    multipart:
+      #location: D:\知识\vue\素材\springboot-back-knowledge # 默认上传下载文件的根目录位置
+      enabled: true # 是否支持批量上传(默认值 true)
+      max-file-size: 10MB # 单个上传文件最大大小
+      max-request-size: 100MB # 总上传数据(整个请求)大小

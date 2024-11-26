@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 与 SimpleUserTableMapper 接口相互映射的xml文件,主要用作增删改查操作 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 表示该mapper接口的全路径名 -->
+<mapper namespace="mybatis.mapper.SimpleUserTableMapper">
+    <!--  选择所有用户信息.可以在接口中使用 @Select() 注代替本标签.其中的 id 值要与 mapper 接口方法名一致  -->
+    <!--    <select id="selectAllUsers" resultType="mybatis.entity.SimpleUserTable">-->
+    <!--        select * from simple_user_table-->
+    <!--    </select>-->
+    <!-- 根据用户名查询用户信息,其中的井号 # 为参数占位符,mybatis会自动将括号内的参数值进行动态替换. $ 代表的占位符表示仅进行字符串替换,不推荐使用 -->
+    <!-- userName 占位符名称要与对应的接口方法形参名一致, javaType 表示java中的参数类型,jdbcType 表示在mysql中的字段类型 -->
+    <select id="selectUserByName" resultType="mybatis.entity.SimpleUserTable">
+        select * from simple_user_table where user_name=#{userName,javaType=String,jdbcType=VARCHAR}
+    </select>
+    <!-- resultType 表示返回结果对应的java对象(或基本类型),这里使用聚合函数返回数据的总数(int类型) -->
+    <select id="userCount" resultType="int">
+        select count(*) from simple_user_table
+    </select>
+    <!-- 根据条件查询用户信息,使用where标签包裹条件来正确处理and或or的使用,使用if标签判断条件是否为空(为空则不会添加条件) -->
+    <select id="selectUserByConditions" resultType="mybatis.entity.SimpleUserTable">
+        select * from simple_user_table
+        <where>
+            <if test="name != null and name !=''">
+                user_name=#{name}
+            </if>
+            <if test="isMale != null"><!--mybatis能够正确处理boolean类型和tinyint(1)类型数据的转换-->
+                and user_is_male=#{isMale}
+            </if>
+            <if test="ageBiggerThen != null">
+                <![CDATA[ and user_age > #{ageBiggerThen} ]]><!--CDATA标签不会被XML解析器解释为标记,使得xml文档正确解析大于号-->
+            </if>
+            <if test="ageSmallerThen != null">
+                and user_age &lt; #{ageSmallerThen}<!-- &lt;会被解析成小于号,&gt;会被解析成大于号 -->
+            </if>
+        </where>
+    </select>
+    <!--传入实体类,根据其字段名称插入对应的数据-->
+    <insert id="insertIntoUserTable">
+        insert into simple_user_table(user_name, user_is_male,user_age,user_phone,user_address,user_comment)
+        values(#{userName},#{userIsMale},#{userAge},#{userPhone},#{userAddress},#{userComment})
+    </insert>
+    <!--根据用户名,修改用户信息.这里使用set标签包裹条件来正确处理逗号的使用.其中传入的实体类的 checkName 字段不能为空-->
+    <update id="updateUserTable">
+        update simple_user_table
+        <set>
+            <if test="userName != null and userName !=''">
+                user_name=#{userName},
+            </if>
+            <if test="userIsMale != null">
+                user_is_male=#{userIsMale},
+            </if>
+            <if test="userAge != null">
+                user_age=#{userAge},
+            </if>
+            <if test="userPhone != null">
+                user_phone=#{userPhone},
+            </if>
+            <if test="userAddress != null">
+                user_address=#{userAddress},
+            </if>
+            <if test="userComment != null">
+                user_comment=#{userComment}
+            </if>
+        </set>
+        where user_name=#{checkName}
+    </update>
+    <!--根据用户名删除对应的用户-->
+    <delete id="deleteUserByName">
+        delete from simple_user_table where user_name=#{userName}
+    </delete>
+</mapper>

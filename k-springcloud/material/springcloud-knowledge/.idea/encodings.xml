@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/a-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a-eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-eureka-client/b1-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-eureka-client/b1-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-eureka-client/b2-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-eureka-client/b2-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-eureka-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-eureka-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/d-configuration-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/d-configuration-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

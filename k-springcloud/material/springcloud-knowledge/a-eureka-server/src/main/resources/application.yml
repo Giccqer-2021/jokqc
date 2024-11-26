@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: DEFAULT-SERVER #必须要添加,否则服务注册到注册中心后会丢失
+server:
+  port: 8761 #端口号,根据行业规范最好设置成8761
+eureka:
+  instance:
+    instance-id: ${spring.application.name} #服务器或客户端实例名称,要保证在注册中心是唯一的,否则注册实例会被相互覆盖
+    hostname: localhost #服务实例的主机名,一般会自动检测并配置这个值,但是在某些情况下需要手动配置
+  client:
+    register-with-eureka: false #表示不把自己视为是客户端,不注册自己(默认为true)
+    fetch-registry: false #表示自己就是注册中心,不检索注册服务(默认为true)
+  server:
+    enable-self-preservation: true #是否开启自我保护,默认为 true
+    eviction-interval-timer-in-ms: 60000 #Eureka服务端清理失效服务的时间间隔,单位毫秒(默认是60000毫秒)
+#以下为监控相关的可选内容.需添加 spring-boot-starter-actuator 依赖使其生效
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info #开放info端点
+  info:
+    env:
+      enabled: true #必须设置为true才能在网页中获取到监控信息
+info: #以下是自定义的监控信息
+  app:
+    name: ${spring.application.name}
+    status: ${spring.application.name}服务器运转良好

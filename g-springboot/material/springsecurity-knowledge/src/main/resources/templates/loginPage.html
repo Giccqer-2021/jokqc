@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <!--为了使静态资源能被成功放行，需要在static目录下创建script目录，以能够引入js文件-->
+    <script type="text/javascript" th:src="@{/script/jquery-3.7.1.min.js}"></script>
+</head>
+<body>
+<p>请输入账号密码</p>
+<!--这里,username和password是SpringSecurity框架需要传入的属性名，不能随便更改-->
+<form method="post" action="/login">
+    账号：<input type="text" name="username"> <br/>
+    密码：<input type="password" name="password"> <br/>
+    <!--用以防止跨域请求伪造攻击生成的验证码,以避免用户在非本页面执行登陆操作-->
+    <input type="hidden" name="_csrf" th:value="${_csrf.token}"/>
+    <input type="submit" value="登 录">
+</form>
+<hr>
+<button id="CustomButton">点我测试js代码</button>
+<script>
+    $("#CustomButton").click(function() {alert("按钮被点击");});
+</script>
+</body>
+</html>

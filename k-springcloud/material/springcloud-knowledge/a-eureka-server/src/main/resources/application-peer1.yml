@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: FIRST-SERVER #对于集群服务器,该名称要有所不同
+server:
+  port: 8762 #注意端口号不要重复
+eureka:
+  instance:
+    instance-id: FIRST-SERVER #服务实例的主机名,要与其他服务器客户端皆不相同
+    hostname: peer1 #主机名,已在 host 文件中配置指向 127.0.0.1
+  client:
+    register-with-eureka: true #服务器之间需要相互注册,选择true
+    fetch-registry: true #服务器之间需要相互注册,选择true
+    service-url:
+      defaultZone: http://peer2:8763/eureka,http://peer3:8764/eureka #指向其他集群服务器,可配置多个

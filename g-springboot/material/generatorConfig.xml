@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <!--mybatis逆向工程文件配置-->
+
+        <!--是否去除注释-->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!--根据实际情况填写-->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/数据库名"
+                        userId="root"
+                        password="密码">
+        </jdbcConnection>
+
+        <!-- pojo生成的位置 -->
+        <javaModelGenerator targetPackage="项目路径.pojo" targetProject="src\main\java">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="true"/>
+            <!-- 从数据库返回的值被清理前后的空格 -->
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!-- sql映射文件生成位置 -->
+        <sqlMapGenerator targetPackage="mappers" targetProject="src\main\resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+        <!-- dao接口生成位置 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="项目路径.dao"
+                             targetProject="src\main\java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!-- 引用的数据表,创建的pojo类名 -->
+        <table tableName="数据表名" domainObjectName="pojo类名"/>
+    </context>
+</generatorConfiguration>

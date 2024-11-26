@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--thymeleaf模板，以上声明为固定写法-->
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf测试页面</title>
+    <!--@标签表示引入静态资源位置，这里的静态资源是放在static文件夹下的文件-->
+    <!--括号内的路径开头要加上一个斜杠/-->
+    <script type="text/javascript" th:src="@{/jquery-3.7.1.min.js}"></script>
+</head>
+<body>
+<p>加载thymeleaf模板成功</p>
+<br>
+<p th:text="${CustomInfo}"></p><!-- th:text 表示进行文本替换，${…}表示对某变量直接进行取值 -->
+<button id="CustomButton">点我测试js代码</button>
+<script>
+    $("#CustomButton").click(function() {alert("按钮被点击");});
+</script>
+<!--如需要则取消注解-->
+<!--<p>这个标签用来测试thymeleaf网页热加载情况</p>-->
+</body>
+</html>

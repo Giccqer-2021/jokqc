@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 与 EmployeeTableMapper 接口相互映射的xml文件,主要用于联表查询 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mybatis.mapper.EmployeeTableMapper">
+    <!-- resultMap: 用于定义一个结果映射,需要在xml文件中自行声明 -->
+    <select id="getAllEmployees" resultMap="EmployeeResultMap">
+        <!--在联表查询语句中,若原表和关联表中的字段名不重复则可以省略二者的表名.为了防止表名冲突,可以使用AS关键字为输出的结果字段起一个别名-->
+        SELECT employee_id,employee_name,department_id,department_name FROM employee_table LEFT JOIN department_table ON
+        employee_department_id = department_id
+    </select>
+    <!-- 自行声明的结果映射,id值要与resultMap的属性值相对应.type的值与实体类相对应 -->
+    <resultMap id="EmployeeResultMap" type="mybatis.entity.EmployeeTable">
+        <!--id标签为主键,property属性为对应的实体类属性,column属性为查询结果对应的列的名字,如果使用了别名则该属性也要使用别名-->
+        <id property="employeeId" column="employee_id"/>
+        <result property="employeeName" column="employee_name"/>
+        <!-- association 标签对应于实体类中的关联对象,javaType属性为关联对象的类型 -->
+        <association property="employeeDepartment" javaType="mybatis.entity.DepartmentTable">
+            <id property="departmentId" column="department_id"/>
+            <result property="departmentName" column="department_name"/>
+        </association>
+    </resultMap>
+</mapper>

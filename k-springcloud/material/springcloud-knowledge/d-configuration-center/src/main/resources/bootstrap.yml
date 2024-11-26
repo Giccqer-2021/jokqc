@@ -1,0 +1,28 @@
+#bootstrap文件,主要用于配置应用启动时需要加载的外部配置中心的配置
+#如SpringCloudConfig服务器的地址,配置文件的标签,配置文件的名称和环境等
+spring:
+  cloud:
+    config:
+      server:
+        git: #配置中心相连接的git库
+          uri: https://gitee.com/Giccqer-2021/springcloud-configuration-center.git # 配置文件git仓库地址
+          username: Giccqer-2021 #git用户名
+          password: ${secret.password} #git密码
+          default-label: master #该配置文件所在的git工程分支
+          search-paths: #配置git该仓库存放的具体目录
+            - springcloud-config
+          basedir: #将远程仓库克隆到本地的什么位置,建议配置绝对路径
+            remote-config # 我~恨~你~!这个别乱写,如果文件夹已存在则在克隆仓库时里面的文件会被删除!!!
+          clone-on-start: false #是否在启动时将git仓库克隆到本地,默认否
+          skip-ssl-validation: false #是否忽略git仓库的ssl证书,默认否
+        bootstrap: true #是否在启动时加载bootstrap配置文件,默认否,如果想要使bootstrap文件生效要设置为true
+        #以下皆为启用本地配置的可选选项,如不需要本地配置可以不写
+        native:
+          search-locations:
+            - remote-config/springcloud-config #本地配置文件存放的目录
+  profiles:
+    active: #以下两种配置模式根据实际需求任选其一
+      - default #默认配置,即启用远程仓库配置
+      #- native #本地配置,即启用本地配置文件
+  config:
+    import: classpath:secret-info.yml

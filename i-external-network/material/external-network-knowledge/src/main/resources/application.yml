@@ -1,0 +1,25 @@
+server:
+  address: www.giccqer.site #声明本服务器的域名(能通过外网解析的)或ip地址(使用回环地址即可)
+  port: 443 #https协议的默认端口443,与http协议所使用的80端口不同
+  ssl: #证书配置
+    key-alias: www.giccqer.site #证书所绑定的域名
+    #密码文件密码,由于申请证书时未设置私钥密码,所以需根据压缩包中的 keystorePass.txt 填写,ipv4证书密码为 m332zkuwxfr,ipv6证书密码 2zmy5g94zmx
+    key-store-password: m332zkuwxfr
+    key-store-type: pkcs12 #证书类型
+    key-store: classpath:ssl/www.giccqer.site.pfx #证书文件所在的位置
+
+spring:
+  mail: #邮件服务器配置
+    host: smtp.qq.com #邮件服务器地址
+    port: 465 #或587,qq邮箱的smtp服务使用这两个端口
+    protocol: smtp #smtp,电子邮件传输协议
+    username: 1293711097@qq.com #发件人账号
+    password: ${secret.password} #qq邮箱的第三方授权登陆码,注意这并非是qq邮箱的网页登录密码
+    default-encoding: UTF-8 #默认编码格式
+    properties: #配置邮件服务器
+      mail.smtp.starttls.enable: true #开启tls加密
+      mail.smtp.starttls.required: true #强制使用tls加密
+      mail.smtp.ssl.enable: true #开启ssl加密
+
+  config:
+    import: classpath:secret-info.yml #导入 secret-info.yml秘密配置文件

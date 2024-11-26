@@ -1,0 +1,26 @@
+server:
+  port: 8110 #8080+10+10+10
+
+spring:
+  application:
+    name: CONFIGURATION-CENTER
+
+eureka:
+  instance:
+    instance-id: CONFIGURATION-CENTER
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info
+  info:
+    env:
+      enabled: true
+info:
+  app:
+    name: CONFIGURATION-CENTER
+    status: CONFIGURATION-CENTER注册中心运转良好

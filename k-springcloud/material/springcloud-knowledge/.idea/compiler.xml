@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="a-eureka-server" />
+        <module name="b1-provider" />
+        <module name="d-configuration-center" />
+        <module name="c-gateway" />
+        <module name="b2-consumer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

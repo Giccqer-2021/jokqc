@@ -1,0 +1,108 @@
+#默认配置文件
+
+server:
+  port: 8081
+  servlet:
+    context-path: /springboot-knowledge #配置后，每次登陆网页需要加上的相关前缀，类似与springMVC中对tomcat的配置
+
+spring:
+  application:
+    name: springboot-knowledge
+  config:
+    #自定义的配置文件位置,可以用于对mysql,redis等数据库进行配置,自定义的配置文件必须能够被找到否则报错
+    import: classpath:conf/custom.yml,classpath:conf/custom2.yml
+  profiles: #配置生效的子文件,子文件的配置会覆盖掉总配置文件相同的配置.一般情况下使用程序实参来启动对应的配置文件,不建议在默认配置中直接声明
+    active:
+    #- dev #开发环境
+    #- test #测试环境
+    #- prod #生产环境
+
+  #  mvc: #开启以传统方法接受类似于DELETE、PUT等网页请求,需要从前端传入 _method 属性类确定增删改查
+  #    hiddenmethod:
+  #      filter:
+  #        enabled: true
+  #
+  #  main:
+  #    banner-mode: OFF #是否关闭 banner 图案
+  jackson:
+    date-format: yyyy年MM月dd日 HH时mm分ss秒 #使用json格式化时输出的时间格式
+    time-zone: GMT+8 #使用json格式化时设置的时区(东八区)
+
+  thymeleaf: #thymeleaf视图模板配置
+    cache: false #服务器运行时是否启用缓存,默认为true,开发阶段应关闭以允许动态刷新
+    check-template: true #模板映射时先检查模板是否存在,默认为true
+    prefix: classpath:/templates/ #视图映射时需要在映射地址前添加的字符串(文件夹路径),默认为 classpath:/templates/
+    suffix: .html #进行视图映射时需要在映射地址后添加的字符串,一般（且默认）是文件后缀名 .html
+
+  devtools: #devtools热部署组件配置,需要以下方法开启
+    restart:
+      enabled: true  #设置开启热部署，false即不开启热部署
+
+  datasource: #与mybatis数据库相关的配置
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/knowledge_database
+    username: root
+    password: 123456@abcdef
+    hikari: #springboot默认使用的数据库连接池HikariCP
+      maximum-pool-size: 10 #最大连接数,默认10
+      minimum-idle: 10 #最小连接数,默认10
+      connection-timeout: 5000 #等待连接池分配连接的最大时长，超过该时长还没有可用连接则发生超时异常（单位毫秒）
+      idle-timeout: 60000  #空闲连接的最大时长，空闲多久就备释放回收，设置为0不让连接回收
+      max-lifetime: 1800000 #一个连接的最大生命时间，超过该时间还没有使用就回收掉（单位毫秒）
+      connection-test-query: SELECT 1 #连接池检查连接是否有效的sql语句,通常会返回一个值为1的结果集
+
+  mail: #邮件服务器配置
+    host: smtp.qq.com #邮件服务器地址
+    port: 465 #或587,qq邮箱的smtp服务使用这两个端口
+    protocol: smtp #smtp,电子邮件传输协议
+    username: 1293711097@qq.com #发件人账号
+    password: ycbzvpceyvrmbage #qq邮箱的第三方授权登陆码,注意这并非是qq邮箱的网页登录密码
+    default-encoding: UTF-8 #默认编码格式
+    properties: #配置邮件服务器
+      mail.smtp.starttls.enable: true #开启tls加密
+      mail.smtp.starttls.required: true #强制使用tls加密
+      mail.smtp.ssl.enable: true #开启ssl加密
+
+
+  data:
+    redis: #redis缓存服务器配置
+      host: 127.0.0.1
+      port: 6379
+      database: 0 #配置需要使用哪个数据库
+      password: 123456@abcdef #redis密码,如果未设置则不写
+
+mybatis:
+  mapper-locations: #mybatis使用的xml映射文件位置
+    - classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true #将数据表中用下划线命名的字段转换为驼峰式命名
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #输出sql语句到控制台
+#  type-aliases-package: springboot.dao #xml映射文件中的resultType或parameterType属性的前缀
+
+#debug: true #是否输出debug日志,等同于在启动项中添加程序实参 --debug
+logging:
+  file:
+    path: logs
+  #    name: log/custom.log #日志文件输出的具体目录及文件名
+  #  config: classpath:logback-spring.xml #配置文件具体位置, 此处即为默认位置
+  level: #日志级别:TRACE < DEBUG < INFO < WARN < ERROR < FATAL
+    root: info #日志级别,默认为info,root表示整个项目的日志级别
+#    springboot.controller: debug #此方法可以声明具体哪个包采用何种日志级别
+
+customInfo: #自定义属性,可以使用小驼峰写法或是全小写并使用-符号相连的写法
+  name: 百度
+  website: https://www.baidu.com/
+  #关于yml文件中的 ${} 语法: ${key:defaultValue}表示先通过key获取yml文件中的值,如果没有获取到,则使用defaultValue.该表达式会在其他配置文件导入完毕后进行运算
+  name-and-website: 网站:${customInfo.name:天猫}-网址:${customInfo.website:https://www.tmall.com/}
+
+management: #线程监视器配置
+  server:
+    port: 8100 #端口,默认与服务器一致
+    base-path: /management #要加入的前缀,不包含服务器配置的前缀
+  endpoint:
+    shutdown:
+      enabled: true #是否允许使用http请求关闭服务器
+  endpoints:
+    web:
+      exposure:
+        include: shutdown #允许访问 shutdown 端点,与上方的配置对应,若为 '*' 则表示允许访问所有端点

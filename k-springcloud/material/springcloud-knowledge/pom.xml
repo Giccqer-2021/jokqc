@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging><!--该项目为父项目-->
+    <modules>
+        <module>a-eureka-server</module>
+        <module>b-eureka-client</module>
+        <module>c-gateway</module>
+        <module>d-configuration-center</module>
+        <module>b-eureka-client/b1-provider</module>
+        <module>b-eureka-client/b2-consumer</module>
+    </modules>
+
+    <groupId>org.giccqer</groupId>
+    <artifactId>springcloud-knowledge</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies><!--所有子项目都会导入这个依赖-->
+        <dependency><!--监视线程依赖,在eureka管理面板中用得上-->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement><!--子项目会继承父项目的依赖管理标签-->
+        <dependencies>
+            <dependency><!--spring boot依赖管理-->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>3.3.4</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency><!--spring cloud依赖管理-->
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>2023.0.3</version><!--谜一样的版本号,下次建议用上海地铁站名称命名-->
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

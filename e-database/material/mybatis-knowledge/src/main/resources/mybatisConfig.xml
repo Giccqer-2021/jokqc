@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- mybatis配置文件 -->
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="database.properties"/><!--读取的properties文件的文件名,如果不需要可以不写-->
+    <settings>
+        <!-- 开启后,使得数据表列名(小写横线相连式命名)与java实体类属性名(小驼峰式命名)可以相互映射 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!-- 启用日志,在控制台中输出打印的sql语句 -->
+        <!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+    </settings>
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"/><!--这些都是固定写法，标记了处理数据库的类型与环境-->
+            <dataSource type="POOLED">
+                <!--导入properties文件，使用其中的参数值进行配置-->
+                <property name="driver" value="${driverClassName}"/>
+                <property name="url"
+                          value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!-- 配置resources文件夹下的 mapper xml 映射文件的位置 -->
+        <mapper resource="mapper\SimpleUserTableMapper.xml"/>
+        <mapper resource="mapper\EmployeeTableMapper.xml"/>
+        <mapper resource="mapper\DormitoryTableMapper.xml"/>
+        <mapper resource="mapper\TimeTableMapper.xml"/>
+    </mappers>
+</configuration>
