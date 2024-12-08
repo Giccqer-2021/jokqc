@@ -1,46 +1,46 @@
-2024-12-02 18:30:36,366 INFO use local db service for init
+2024-12-08 22:22:52,170 INFO use local db service for init
 
-2024-12-02 18:30:36,881 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+2024-12-08 22:22:52,644 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
 
-2024-12-02 18:30:36,890 WARN Syntax error: Encountered "*" at line 1, column 1.
+2024-12-08 22:22:52,649 WARN Syntax error: Encountered "*" at line 1, column 1.
 
-2024-12-02 18:30:36,949 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,696 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,002 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,745 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,025 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,771 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,038 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,781 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,049 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,794 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,062 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,806 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,072 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,816 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,086 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,828 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,097 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,839 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,114 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,856 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,125 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,867 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,138 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,877 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,154 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,893 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,165 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,903 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,176 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+2024-12-08 22:22:52,913 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
 
-2024-12-02 18:30:37,177 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+2024-12-08 22:22:52,914 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
 
-2024-12-02 18:30:37,177 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+2024-12-08 22:22:52,915 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
 
-2024-12-02 18:30:37,177 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+2024-12-08 22:22:52,915 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
 
-2024-12-02 18:30:37,178 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+2024-12-08 22:22:52,915 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
 
-2024-12-02 18:30:37,178 INFO use StandaloneDatabaseOperateImpl
+2024-12-08 22:22:52,915 INFO use StandaloneDatabaseOperateImpl
 

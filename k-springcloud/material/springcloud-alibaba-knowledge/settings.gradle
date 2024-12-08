@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+            name 'aliyun-plugin'
+        }
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'springcloud-alibaba-knowledge'
+include 'a-client-provider', 'b-client-consumer'

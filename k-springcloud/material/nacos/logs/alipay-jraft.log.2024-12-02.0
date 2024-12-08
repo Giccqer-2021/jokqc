@@ -1,0 +1,280 @@
+2024-12-02 18:30:39,578 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2024-12-02 18:30:39,690 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2024-12-02 18:30:39,864 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2024-12-02 18:30:39,871 INFO The number of active nodes increment to 1.
+
+2024-12-02 18:30:40,164 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 0 to 6, cost 1 ms.
+
+2024-12-02 18:30:40,169 INFO Starts FSMCaller successfully.
+
+2024-12-02 18:30:40,181 INFO Loading snapshot, meta=last_included_index: 5
+last_included_term: 5
+peers: "192.168.124.5:7848"
+.
+
+2024-12-02 18:30:40,255 INFO Node <naming_persistent_service/192.168.124.5:7848> onSnapshotLoadDone, last_included_index: 5
+last_included_term: 5
+peers: "192.168.124.5:7848"
+
+
+2024-12-02 18:30:40,256 INFO Node <naming_persistent_service/192.168.124.5:7848> target priority value has changed from: 0, to: -1.
+
+2024-12-02 18:30:40,258 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 6 to 6, cost 0 ms.
+
+2024-12-02 18:30:40,267 INFO Node <naming_persistent_service/192.168.124.5:7848> init, term=5, lastLogId=LogId [index=5, term=5], conf=192.168.124.5:7848, oldConf=.
+
+2024-12-02 18:30:40,270 INFO Node <naming_persistent_service/192.168.124.5:7848> start vote and grant vote self, term=5.
+
+2024-12-02 18:30:40,287 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\meta-data on windows.
+
+2024-12-02 18:30:40,288 INFO Save raft meta, path=D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\meta-data, term=6, votedFor=192.168.124.5:7848, cost time=16 ms
+
+2024-12-02 18:30:40,288 INFO Node <naming_persistent_service/192.168.124.5:7848> become leader of group, term=6, conf=192.168.124.5:7848, oldConf=.
+
+2024-12-02 18:30:40,291 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2024-12-02 18:30:40,294 WARN RPC server is not started in RaftGroupService.
+
+2024-12-02 18:30:40,294 INFO Start the RaftGroupService successfully.
+
+2024-12-02 18:30:40,306 INFO onLeaderStart: term=6.
+
+2024-12-02 18:30:40,386 INFO The number of active nodes increment to 2.
+
+2024-12-02 18:30:40,438 INFO Creating new channel to: 192.168.124.5:7848.
+
+2024-12-02 18:30:40,452 INFO The channel 192.168.124.5:7848 is in state: CONNECTING.
+
+2024-12-02 18:30:40,454 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 0 to 6, cost 0 ms.
+
+2024-12-02 18:30:40,455 INFO Starts FSMCaller successfully.
+
+2024-12-02 18:30:40,456 INFO Loading snapshot, meta=last_included_index: 5
+last_included_term: 5
+peers: "192.168.124.5:7848"
+.
+
+2024-12-02 18:30:40,463 INFO Node <naming_persistent_service_v2/192.168.124.5:7848> onSnapshotLoadDone, last_included_index: 5
+last_included_term: 5
+peers: "192.168.124.5:7848"
+
+
+2024-12-02 18:30:40,463 INFO Node <naming_persistent_service_v2/192.168.124.5:7848> target priority value has changed from: 0, to: -1.
+
+2024-12-02 18:30:40,464 INFO Node <naming_persistent_service_v2/192.168.124.5:7848> init, term=5, lastLogId=LogId [index=5, term=5], conf=192.168.124.5:7848, oldConf=.
+
+2024-12-02 18:30:40,465 INFO Node <naming_persistent_service_v2/192.168.124.5:7848> start vote and grant vote self, term=5.
+
+2024-12-02 18:30:40,465 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 6 to 6, cost 0 ms.
+
+2024-12-02 18:30:40,472 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2024-12-02 18:30:40,472 INFO Save raft meta, path=D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=6, votedFor=192.168.124.5:7848, cost time=7 ms
+
+2024-12-02 18:30:40,472 INFO Node <naming_persistent_service_v2/192.168.124.5:7848> become leader of group, term=6, conf=192.168.124.5:7848, oldConf=.
+
+2024-12-02 18:30:40,473 WARN RPC server is not started in RaftGroupService.
+
+2024-12-02 18:30:40,473 INFO Start the RaftGroupService successfully.
+
+2024-12-02 18:30:40,474 INFO onLeaderStart: term=6.
+
+2024-12-02 18:30:40,486 INFO The number of active nodes increment to 3.
+
+2024-12-02 18:30:40,556 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 0 to 6, cost 0 ms.
+
+2024-12-02 18:30:40,557 INFO Starts FSMCaller successfully.
+
+2024-12-02 18:30:40,558 INFO Loading snapshot, meta=last_included_index: 5
+last_included_term: 5
+peers: "192.168.124.5:7848"
+.
+
+2024-12-02 18:30:40,560 INFO Node <naming_instance_metadata/192.168.124.5:7848> onSnapshotLoadDone, last_included_index: 5
+last_included_term: 5
+peers: "192.168.124.5:7848"
+
+
+2024-12-02 18:30:40,560 INFO Node <naming_instance_metadata/192.168.124.5:7848> target priority value has changed from: 0, to: -1.
+
+2024-12-02 18:30:40,561 INFO Node <naming_instance_metadata/192.168.124.5:7848> init, term=5, lastLogId=LogId [index=5, term=5], conf=192.168.124.5:7848, oldConf=.
+
+2024-12-02 18:30:40,562 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 6 to 6, cost 0 ms.
+
+2024-12-02 18:30:40,562 INFO Node <naming_instance_metadata/192.168.124.5:7848> start vote and grant vote self, term=5.
+
+2024-12-02 18:30:40,567 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2024-12-02 18:30:40,567 INFO Save raft meta, path=D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=6, votedFor=192.168.124.5:7848, cost time=6 ms
+
+2024-12-02 18:30:40,567 INFO Node <naming_instance_metadata/192.168.124.5:7848> become leader of group, term=6, conf=192.168.124.5:7848, oldConf=.
+
+2024-12-02 18:30:40,568 WARN RPC server is not started in RaftGroupService.
+
+2024-12-02 18:30:40,568 INFO Start the RaftGroupService successfully.
+
+2024-12-02 18:30:40,570 INFO onLeaderStart: term=6.
+
+2024-12-02 18:30:40,573 INFO The number of active nodes increment to 4.
+
+2024-12-02 18:30:40,629 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 0 to 6, cost 0 ms.
+
+2024-12-02 18:30:40,631 INFO Starts FSMCaller successfully.
+
+2024-12-02 18:30:40,631 INFO Loading snapshot, meta=last_included_index: 5
+last_included_term: 5
+peers: "192.168.124.5:7848"
+.
+
+2024-12-02 18:30:40,633 INFO Node <naming_service_metadata/192.168.124.5:7848> onSnapshotLoadDone, last_included_index: 5
+last_included_term: 5
+peers: "192.168.124.5:7848"
+
+
+2024-12-02 18:30:40,633 INFO Node <naming_service_metadata/192.168.124.5:7848> target priority value has changed from: 0, to: -1.
+
+2024-12-02 18:30:40,634 INFO Node <naming_service_metadata/192.168.124.5:7848> init, term=5, lastLogId=LogId [index=5, term=5], conf=192.168.124.5:7848, oldConf=.
+
+2024-12-02 18:30:40,634 INFO Node <naming_service_metadata/192.168.124.5:7848> start vote and grant vote self, term=5.
+
+2024-12-02 18:30:40,634 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 6 to 6, cost 0 ms.
+
+2024-12-02 18:30:40,639 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2024-12-02 18:30:40,640 INFO Save raft meta, path=D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=6, votedFor=192.168.124.5:7848, cost time=5 ms
+
+2024-12-02 18:30:40,640 INFO Node <naming_service_metadata/192.168.124.5:7848> become leader of group, term=6, conf=192.168.124.5:7848, oldConf=.
+
+2024-12-02 18:30:40,640 WARN RPC server is not started in RaftGroupService.
+
+2024-12-02 18:30:40,641 INFO Start the RaftGroupService successfully.
+
+2024-12-02 18:30:40,642 INFO onLeaderStart: term=6.
+
+2024-12-02 18:30:40,770 INFO The channel 192.168.124.5:7848 is in state: READY.
+
+2024-12-02 18:30:40,770 INFO The channel 192.168.124.5:7848 has successfully established.
+
+2024-12-02 18:52:01,490 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2024-12-02 18:52:01,490 INFO Deleting snapshot D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_6.
+
+2024-12-02 18:52:01,490 INFO Renaming D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_6.
+
+2024-12-02 18:52:01,493 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\snapshot on windows.
+
+2024-12-02 18:52:01,493 INFO Deleting snapshot D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_5.
+
+2024-12-02 18:52:01,500 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 6 to 6, cost 0 ms.
+
+2024-12-02 18:53:03,842 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2024-12-02 18:53:03,843 INFO Deleting snapshot D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_6.
+
+2024-12-02 18:53:03,843 INFO Renaming D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_6.
+
+2024-12-02 18:53:03,845 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\snapshot on windows.
+
+2024-12-02 18:53:03,845 INFO Deleting snapshot D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_5.
+
+2024-12-02 18:53:03,850 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 6 to 6, cost 0 ms.
+
+2024-12-02 18:56:33,389 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2024-12-02 18:56:33,389 INFO Deleting snapshot D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_6.
+
+2024-12-02 18:56:33,389 INFO Renaming D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_6.
+
+2024-12-02 18:56:33,391 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot on windows.
+
+2024-12-02 18:56:33,391 INFO Deleting snapshot D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_5.
+
+2024-12-02 18:56:33,396 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 6 to 6, cost 0 ms.
+
+2024-12-02 18:56:34,472 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\snapshot\temp on windows.
+
+2024-12-02 18:56:34,472 INFO Deleting snapshot D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_6.
+
+2024-12-02 18:56:34,472 INFO Renaming D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\snapshot\temp to D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_6.
+
+2024-12-02 18:56:34,474 WARN Unable to fsync directory D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\snapshot on windows.
+
+2024-12-02 18:56:34,474 INFO Deleting snapshot D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\snapshot\snapshot_5.
+
+2024-12-02 18:56:34,479 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 6 to 6, cost 0 ms.
+
+2024-12-02 19:22:01,473 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 6 to 7, cost 0 ms.
+
+2024-12-02 19:23:03,847 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 6 to 7, cost 1 ms.
+
+2024-12-02 19:26:33,391 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 6 to 7, cost 0 ms.
+
+2024-12-02 19:26:34,475 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 6 to 7, cost 0 ms.
+
+2024-12-02 19:52:01,475 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-12-02 19:53:03,847 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 19:56:33,406 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 1 ms.
+
+2024-12-02 19:56:34,485 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 20:22:01,479 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 20:23:03,852 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 20:26:33,421 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 20:26:34,485 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 20:52:01,481 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 20:53:03,859 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 20:56:33,428 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 20:56:34,498 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 21:22:01,489 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 21:23:03,873 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 21:26:33,439 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 21:26:34,504 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 21:52:01,491 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 21:53:03,878 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 21:56:33,442 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 21:56:34,514 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 22:22:01,507 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 22:23:03,882 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 22:26:33,451 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 1 ms.
+
+2024-12-02 22:26:34,523 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 22:52:01,521 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 22:53:03,895 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 22:56:33,462 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 1 ms.
+
+2024-12-02 22:56:34,526 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 23:22:01,535 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 23:23:03,896 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-12-02 23:26:33,467 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-12-02 23:26:34,537 INFO Truncated prefix logs in data path: D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+

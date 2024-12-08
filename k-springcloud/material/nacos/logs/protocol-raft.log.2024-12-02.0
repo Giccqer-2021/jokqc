@@ -1,0 +1,34 @@
+2024-12-02 18:30:39,497 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["192.168.124.5:7848"],"strictMode":false,"selfMember":"192.168.124.5:7848"}
+
+2024-12-02 18:30:39,812 INFO ========= The raft protocol is starting... =========
+
+2024-12-02 18:30:39,846 INFO ========= The raft protocol start finished... =========
+
+2024-12-02 18:30:39,850 INFO create raft group : naming_persistent_service
+
+2024-12-02 18:30:40,251 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='null', term=null, raftClusterInfo=[192.168.124.5:7848]}
+
+2024-12-02 18:30:40,308 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='192.168.124.5:7848', term=6, raftClusterInfo=[192.168.124.5:7848]}
+
+2024-12-02 18:30:40,386 INFO create raft group : naming_persistent_service_v2
+
+2024-12-02 18:30:40,457 INFO snapshot start to load from : D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_5
+
+2024-12-02 18:30:40,463 INFO snapshot success to load from : D:\知识\java-knowledge\k-springcloud\material\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_5
+
+2024-12-02 18:30:40,463 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[192.168.124.5:7848]}
+
+2024-12-02 18:30:40,475 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.124.5:7848', term=6, raftClusterInfo=[192.168.124.5:7848]}
+
+2024-12-02 18:30:40,485 INFO create raft group : naming_instance_metadata
+
+2024-12-02 18:30:40,560 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[192.168.124.5:7848]}
+
+2024-12-02 18:30:40,570 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.124.5:7848', term=6, raftClusterInfo=[192.168.124.5:7848]}
+
+2024-12-02 18:30:40,572 INFO create raft group : naming_service_metadata
+
+2024-12-02 18:30:40,633 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[192.168.124.5:7848]}
+
+2024-12-02 18:30:40,642 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.124.5:7848', term=6, raftClusterInfo=[192.168.124.5:7848]}
+

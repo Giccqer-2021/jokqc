@@ -18,7 +18,7 @@
       //id 'java' //java插件,gradle默认启用该插件,该插件提供了编译,测试,打包等基本功能
       id 'java-library' //java库插件,相当于java插件的增强版,添加了 api 等方法
       id 'org.springframework.boot' version '3.4.0' //Springboot 核心插件
-      id 'io.spring.dependency-management' version '1.1.6' //Springboot 依赖版本管理插件
+      id 'io.spring.dependency-management' version '1.1.6' //dependencyManagement 依赖版本管理插件
   }
   ```
 
@@ -87,7 +87,7 @@
 ### 添加普通依赖
 
 - > 项目依赖管理,添加依赖的通用格式为: implementation '组名:项目名:版本号'
-  > 如果项目被纳入了依赖管理(被置入dependencyManagement标签中或使用plugins标签中的插件)则不必写版本号
+  > 如果项目被纳入了依赖管理(被置入dependencyManagement标签中或被plugins标签中的插件支持)则不必写版本号
 
   在 [build.gradle](material\gradle-knowledge\build.gradle) 写入:
 
@@ -110,11 +110,13 @@
   }
   ```
 
-### 添加版本管理
+### 添加版本管理(需要插件的支持)
 
 - 在 [build.gradle](material\gradle-knowledge\build.gradle) 写入:
   ```groovy
-  dependencyManagement { //该标签相当于maven中的dependencyManagement标签,用于管理依赖的版本
+  //该标签相当于maven中的dependencyManagement标签,用于管理依赖的版本
+  //注:gradle本身并不能识别dependencyManagement标签,该标签需要 io.spring.dependency-management 插件的支持
+  dependencyManagement {
       dependencies {
           dependency 'org.mybatis:mybatis:3.5.16' //纳入版本管理中的依赖
           imports { //imports表示引入这些依赖的依赖管理而不是依赖本身,相当于scope=pom

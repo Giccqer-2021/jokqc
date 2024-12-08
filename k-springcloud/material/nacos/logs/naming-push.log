@@ -1,2 +1,2 @@
-2024-12-02 18:37:13,695 INFO [PUSH-SUCC] 20ms, all delay time 584ms for subscriber 192.168.116.1, Service{namespace='public', group='DEFAULT_GROUP', name='PROVIDER', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+2024-12-08 22:25:18,684 INFO [PUSH-SUCC] 14ms, all delay time 619ms for subscriber 192.168.116.1, Service{namespace='public', group='DEFAULT_GROUP', name='PROVIDER', ephemeral=true, revision=1}, originalSize=1, DataSize=1
 

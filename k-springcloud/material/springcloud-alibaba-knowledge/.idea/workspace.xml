@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f337ad75-7a3a-4bba-b962-03e4cf626cde" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../../5-nacos.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-nacos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/bin/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/bin/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c490.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4c1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4d1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4e1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4f0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c501.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c501.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c511.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c511.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c521.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c521.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c531.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c531.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c700.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c700.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c711.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c711.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c721.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c721.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c731.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c731.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000034.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/CURRENT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/LOCK" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/LOCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000034.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/CURRENT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/LOCK" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/LOCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000034.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/CURRENT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/LOCK" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/LOCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000034.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/CURRENT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/LOCK" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/LOCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/alipay-jraft.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/alipay-jraft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-client-request.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-client-request.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-dump.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-dump.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-memory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-pull-check.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-pull-check.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos-cluster.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos-cluster.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos-persistence.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos-persistence.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-performance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-push.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-push.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/plugin-control-connection.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/plugin-control-connection.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/plugin-control.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/plugin-control.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/protocol-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/protocol-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/remote-digest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/remote-digest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/remote.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/remote.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-client-provider/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b-client-consumer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springcloud-alibaba-knowledge" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springcloud-alibaba-knowledge" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springcloud-alibaba-knowledge" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Giccqer-2021&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Giccqer-2021/jokqc.git&quot;,
+    &quot;accountId&quot;: &quot;f1635af7-1c34-4a94-b560-62cc3e8ab58f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pw85kYvy8dceNFY2NyJxjGONgn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.springcloud-alibaba-knowledge [:org.giccqer.Main.main()].executor": "Run",
+    "Gradle.springcloud-alibaba-knowledge [clean].executor": "Run",
+    "Gradle.springcloud-alibaba-knowledge [dependencies].executor": "Run",
+    "Gradle.springcloud-alibaba-knowledge:a-client-provider [:a-client-provider:org.giccqer.provider.ProviderStarter.main()].executor": "Run",
+    "Gradle.springcloud-alibaba-knowledge:b-client-consumer [:b-client-consumer:org.giccqer.consumer.ConsumerStarter.main()].executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/知识/java-knowledge/k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/resources",
+    "onboarding.tips.debug.path": "D:/知识/java-knowledge/k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/java/org/giccqer/consumer/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\知识\java-knowledge\k-springcloud\material\springcloud-alibaba-knowledge\b-client-consumer\src\main\resources" />
+      <recent name="D:\知识\java-knowledge\k-springcloud\material\springcloud-alibaba-knowledge\b-client-consumer\src\main\java\org\giccqer\consumer" />
+      <recent name="D:\知识\java-knowledge\k-springcloud\material\springcloud-alibaba-knowledge\a-client-provider\src\main\resources" />
+      <recent name="D:\知识\java-knowledge\k-springcloud\material\springcloud-alibaba-knowledge\a-client-provider\src\main\java\org\giccqer\provider" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.a-ProviderStarter">
+    <configuration name="a-ProviderStarter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.giccqer.provider.ProviderStarter" />
+      <module name="springcloud-alibaba-knowledge.a-client-provider.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.giccqer.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b-ConsumerStarter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.giccqer.consumer.ConsumerStarter" />
+      <module name="springcloud-alibaba-knowledge.b-client-consumer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.giccqer.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springcloud-alibaba-knowledge [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="springcloud-alibaba-knowledge [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.springcloud-alibaba-knowledge [clean]" />
+      <item itemvalue="Gradle.springcloud-alibaba-knowledge [dependencies]" />
+      <item itemvalue="应用程序.b-ConsumerStarter" />
+      <item itemvalue="应用程序.a-ProviderStarter" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.b-ConsumerStarter" />
+        <item itemvalue="应用程序.a-ProviderStarter" />
+        <item itemvalue="Gradle.springcloud-alibaba-knowledge [dependencies]" />
+        <item itemvalue="Gradle.springcloud-alibaba-knowledge [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f337ad75-7a3a-4bba-b962-03e4cf626cde" name="更改" comment="" />
+      <created>1733665598815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733665598815</updated>
+    </task>
+    <servers />
+  </component>
+</project>

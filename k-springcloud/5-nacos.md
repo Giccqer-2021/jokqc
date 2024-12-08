@@ -2,8 +2,6 @@ http://ip6-localhost:8848/nacos
 
 http://ip6-localhost:8090/hello-info
 
-http://ip6-localhost:8090/hello
-
 http://ip6-localhost:8090/get-configs
 
 http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=config-faces.yml&group=DEFAULT_GROUP
