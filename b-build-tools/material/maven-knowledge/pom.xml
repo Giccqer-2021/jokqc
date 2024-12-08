@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--以上为pom文件的schema文档约束以及版本,皆为固定写法-->
+
+    <parent><!--声明该项目的父工程,使用坐标三要素定位,建议写在前面-->
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.4</version>
+    </parent>
+
+    <groupId>org.giccqer</groupId><!--公司id,模块id,版本号,可以由这些在maven仓库中定位某个依赖-->
+    <artifactId>mavne-knowledge</artifactId>
+    <version>0.0.1</version>
+
+    <!--名称,一般作为打包后的包名-->
+    <name>maven-knowledge</name>
+
+    <modules><!--声明本模块路径下存在的其他模块(不一定是子模块)-->
+        <module>depend-on-father</module>
+        <module>use-brother-module-dependency</module>
+    </modules>
+
+    <!-- 当前Maven工程的打包方式,可选值有以下三种(不写默认是jar): -->
+    <!-- jar:表示这个工程是一个Java工程,是默认配置  -->
+    <!-- war:表示这个工程是一个Web工程,打包后由tomcat服务器使用 -->
+    <!-- pom:表示这个工程是某(些)子模块的父工程,父工程不写业务代码,可以将src文件删除.父工程本身可以是别的工程的子工程 -->
+    <packaging>pom</packaging>
+
+    <properties><!-- 工程编译,构建所使用的jdk版本,读取源码时所使用的编码方式,与子项目统一,如果不写的话则采用系统默认配置 -->
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jdbc.version>9.0.0</jdbc.version><!--自定义的属性,用于下方声明相关jdbc依赖的版本号-->
+    </properties>
+
+    <repositories><!-- 配置阿里云镜像,由于已在全局配置所以可以不写 -->
+        <repository>
+            <id>aliyun</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>aliyun-plugin</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <!--依赖管理,对于一般项目:当前工程所依赖的jar包.某些依赖会依赖其他的依赖,这些都会被导入-->
+    <!--对于父项目:所有的子项目全部依赖于这些依赖,即使子项目没有声明.这些依赖的scope标签要被声明为compile(默认),否则没有意义-->
+    <dependencies>
+        <dependency><!--根据父项目中的dependencyManagement标签中的可选依赖声明导入的依赖,不需要写版本号-->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion><!--使用excludes标签排除依赖的依赖,以防止与其他依赖或依赖的依赖冲突(如版本冲突),无需写版本号-->
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.113.Final</version>
+            <scope>compile</scope><!--依赖范围,不写则默认是compile,编译、测试、运行时需要,会被打包-->
+            <optional>true</optional><!--声明为true时,依赖本项目的工程不会向其传递这个依赖,不影响子模块-->
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>9.7</version>
+            <scope>provided</scope><!--运行时不需要,不会被打包,不可传递-->
+        </dependency>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <!--使用上方自定义属性来指定jdbc版本,如果引入了很多同版本的项目,可以以此来统一并快速修改版本号-->
+            <version>${jdbc.version}</version>
+            <scope>runtime</scope><!--只参与项目的运行和测试,不参与编译,会被打包-->
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.3</version>
+            <scope>test</scope><!--只在测试时需要,不会被打包-->
+        </dependency>
+    </dependencies>
+
+    <!--用于依赖版本管理的标签,对于一般项目,在<dependency>标签导入本标签声明的依赖后无需写入版本号-->
+    <!--对于父依赖项目,其子依赖也会继承该标签中的所有内容-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency><!--在本标签中要写上版本号-->
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>3.5.16</version>
+            </dependency>
+            <dependency><!--自行编译的依赖,子模块,声明该模块可以被其他子模块调用(可以不写)-->
+                <groupId>org.giccqer</groupId>
+                <artifactId>depend-on-father</artifactId>
+                <version>0.0.1</version>
+            </dependency>
+            <dependency><!--该项目本身为父项目,导入该项目后本项目将其<dependencyManagement>标签中的依赖纳入自身-->
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>2023.0.4</version>
+                <type>pom</type><!--声明其为pom文件类型-->
+                <scope>import</scope><!--声明为import标签,表示引入其依赖管理-->
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- build标签:用以规定项目目录,管理生命周期及备用的插件,这里只演示插件 -->
+    <!--同理,父标签下的build标签会被自动导入子项目,如果需要也可以使用pluginManagement管理插件版本号并让子项目自行导入-->
+    <build>
+        <finalName>my-package</finalName><!--指定打包后的名称-->
+        <plugins><!-- plugins 标签就是所管理的插件集 -->
+            <plugin>
+                <groupId>org.mybatis.generator</groupId><!--mybatis逆向工程相关插件,使用坐标三要素定位-->
+                <artifactId>mybatis-generator-maven-plugin</artifactId>
+                <version>1.4.2</version>
+                <configuration><!--不同插件configuration标签下的元素是不同的,具体情况要具体处理-->
+                    <verbose>true</verbose>
+                    <overwrite>true</overwrite>
+                </configuration>
+                <dependencies><!--mybatis逆向工程插件所需要导入的依赖,写法同上-->
+                    <dependency>
+                        <groupId>com.mysql</groupId>
+                        <artifactId>mysql-connector-j</artifactId>
+                        <version>${jdbc.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <!--maven专用的普通项目打包插件,以下坐标三要素为固定写法-->
+                <!--若想打包成功,请主动打开cmd终端并执行命令: mvn package assembly:single -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.7.1</version>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal><!--将所有(子)项目打包成一个单一的jar包.有时idea会在此处标红,属于正常现象,不影响打包-->
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <archive>
+                        <manifest><!--指定哪个方法为该jar程序的入口-->
+                            <mainClass>org.giccqer.SubModuleMain2</mainClass>；
+                        </manifest>
+                    </archive><!--jar包的输出目录-->
+                    <outputDirectory>${project.build.directory}/full-integration-package</outputDirectory>
+                    <descriptorRefs><!--设置打包后的jar目录结构(默认)-->
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

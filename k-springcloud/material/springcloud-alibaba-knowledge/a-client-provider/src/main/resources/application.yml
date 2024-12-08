@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: PROVIDER
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ip6-localhost:8848

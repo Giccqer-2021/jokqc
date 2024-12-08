@@ -1,0 +1,104 @@
+2024-12-01 00:22:23,483 INFO [dump] add formal task. groupKey=config-faces.properties+DEFAULT_GROUP
+
+2024-12-01 00:22:23,541 INFO [dump] process formal task. groupKey=config-faces.properties+DEFAULT_GROUP
+
+2024-12-01 00:22:23,541 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.properties+DEFAULT_GROUP, newMd5=25a822367cd73c79acc56da3c73fa07e,oldMd5=7ff5df104a404444beb0f80313068399
+
+2024-12-01 00:22:23,542 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.properties+DEFAULT_GROUP, newMd5=25a822367cd73c79acc56da3c73fa07e,oldMd5=7ff5df104a404444beb0f80313068399,lastModifiedTs=1732983743480
+
+2024-12-01 00:23:29,879 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-01 00:23:29,932 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-01 00:23:29,932 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=25a822367cd73c79acc56da3c73fa07e,oldMd5=c0a586ba6b2b3f2d4e222019a932e656
+
+2024-12-01 00:23:29,933 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=25a822367cd73c79acc56da3c73fa07e,oldMd5=c0a586ba6b2b3f2d4e222019a932e656,lastModifiedTs=1732983809878
+
+2024-12-01 00:24:44,484 INFO [dump] add formal task. groupKey=config-faces.yaml+DEFAULT_GROUP
+
+2024-12-01 00:24:44,528 INFO [dump] process formal task. groupKey=config-faces.yaml+DEFAULT_GROUP
+
+2024-12-01 00:24:44,528 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yaml+DEFAULT_GROUP, newMd5=0301ce8910bcef773b2784e8822cd0c8,oldMd5=c0a586ba6b2b3f2d4e222019a932e656
+
+2024-12-01 00:24:44,530 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yaml+DEFAULT_GROUP, newMd5=0301ce8910bcef773b2784e8822cd0c8,oldMd5=c0a586ba6b2b3f2d4e222019a932e656,lastModifiedTs=1732983884483
+
+2024-12-01 00:25:44,850 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-01 00:25:44,850 INFO [dump] add formal task. groupKey=config-faces.yaml+DEFAULT_GROUP
+
+2024-12-01 00:25:44,929 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-01 00:25:44,929 INFO [dump] remove  local disk cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-01 00:25:44,930 INFO [dump] remove  local jvm cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-01 00:25:44,930 INFO [dump] process formal task. groupKey=config-faces.yaml+DEFAULT_GROUP
+
+2024-12-01 00:25:44,931 INFO [dump] remove  local disk cache,groupKey=config-faces.yaml+DEFAULT_GROUP 
+
+2024-12-01 00:25:44,932 INFO [dump] remove  local jvm cache,groupKey=config-faces.yaml+DEFAULT_GROUP 
+
+2024-12-01 00:26:54,758 INFO [dump] add formal task. groupKey=config-faces.properties+DEFAULT_GROUP
+
+2024-12-01 00:26:54,830 INFO [dump] process formal task. groupKey=config-faces.properties+DEFAULT_GROUP
+
+2024-12-01 00:26:54,830 WARN [dump-ignore] ignore to save to disk cache. md5 consistent,groupKey=config-faces.properties+DEFAULT_GROUP, md5=25a822367cd73c79acc56da3c73fa07e
+
+2024-12-01 00:26:54,830 INFO [dump] md5 consistent ,timestamp changed, update timestamp only in jvm cache ,groupKey=config-faces.properties+DEFAULT_GROUP,lastModifiedTs=1732984014755
+
+2024-12-01 00:34:06,659 INFO [dump] add formal task. groupKey=config-faces.properties+DEFAULT_GROUP
+
+2024-12-01 00:34:06,745 INFO [dump] process formal task. groupKey=config-faces.properties+DEFAULT_GROUP
+
+2024-12-01 00:34:06,746 INFO [dump] remove  local disk cache,groupKey=config-faces.properties+DEFAULT_GROUP 
+
+2024-12-01 00:34:06,747 INFO [dump] remove  local jvm cache,groupKey=config-faces.properties+DEFAULT_GROUP 
+
+2024-12-01 00:34:38,720 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-01 00:34:38,741 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-01 00:34:38,741 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=c0a586ba6b2b3f2d4e222019a932e656,oldMd5=
+
+2024-12-01 00:34:38,743 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=c0a586ba6b2b3f2d4e222019a932e656,oldMd5=,lastModifiedTs=1732984478718
+
+2024-12-01 00:38:45,969 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-01 00:38:46,053 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-01 00:38:46,054 INFO [dump] remove  local disk cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-01 00:38:46,056 INFO [dump] remove  local jvm cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-01 00:39:02,402 INFO [dump] add formal task. groupKey=faces.yaml+DEFAULT_GROUP
+
+2024-12-01 00:39:02,408 INFO [dump] process formal task. groupKey=faces.yaml+DEFAULT_GROUP
+
+2024-12-01 00:39:02,409 INFO [dump] md5 changed, save to disk cache ,groupKey=faces.yaml+DEFAULT_GROUP, newMd5=c0a586ba6b2b3f2d4e222019a932e656,oldMd5=
+
+2024-12-01 00:39:02,411 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=faces.yaml+DEFAULT_GROUP, newMd5=c0a586ba6b2b3f2d4e222019a932e656,oldMd5=,lastModifiedTs=1732984742400
+
+2024-12-01 00:39:52,921 INFO [dump] add formal task. groupKey=faces.yaml+DEFAULT_GROUP
+
+2024-12-01 00:39:53,019 INFO [dump] process formal task. groupKey=faces.yaml+DEFAULT_GROUP
+
+2024-12-01 00:39:53,019 INFO [dump] md5 changed, save to disk cache ,groupKey=faces.yaml+DEFAULT_GROUP, newMd5=2fcab3863dd20ff95f880d313510a848,oldMd5=c0a586ba6b2b3f2d4e222019a932e656
+
+2024-12-01 00:39:53,020 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=faces.yaml+DEFAULT_GROUP, newMd5=2fcab3863dd20ff95f880d313510a848,oldMd5=c0a586ba6b2b3f2d4e222019a932e656,lastModifiedTs=1732984792919
+
+2024-12-01 00:46:50,496 INFO [dump] add formal task. groupKey=faces.yaml+DEFAULT_GROUP
+
+2024-12-01 00:46:50,564 INFO [dump] process formal task. groupKey=faces.yaml+DEFAULT_GROUP
+
+2024-12-01 00:46:50,564 INFO [dump] remove  local disk cache,groupKey=faces.yaml+DEFAULT_GROUP 
+
+2024-12-01 00:46:50,565 INFO [dump] remove  local jvm cache,groupKey=faces.yaml+DEFAULT_GROUP 
+
+2024-12-01 00:48:43,263 INFO [dump] add formal task. groupKey=CONSUMER-dev+DEFAULT_GROUP
+
+2024-12-01 00:48:43,290 INFO [dump] process formal task. groupKey=CONSUMER-dev+DEFAULT_GROUP
+
+2024-12-01 00:48:43,290 INFO [dump] md5 changed, save to disk cache ,groupKey=CONSUMER-dev+DEFAULT_GROUP, newMd5=c0a586ba6b2b3f2d4e222019a932e656,oldMd5=
+
+2024-12-01 00:48:43,292 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=CONSUMER-dev+DEFAULT_GROUP, newMd5=c0a586ba6b2b3f2d4e222019a932e656,oldMd5=,lastModifiedTs=1732985323261
+

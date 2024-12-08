@@ -1,0 +1,14 @@
+//settings.gradle 文件用于配置gradle整体工程的结构,如父子模块关系,各模块的项目名等
+pluginManagement { //配置在构建过程中使用的插件仓库,要写在顶部.gradle和maven使用的插件往往不同
+    repositories {
+        gradlePluginPortal() //在Gradle中央插件库中查找依赖项
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+            name 'aliyun-plugin'
+        }
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'gradle-knowledge' //设置根项目名,如果只有一个项目那就是自己的项目名,会自动生成
+include 'a-submodule', 'b-submodule' //设定子模块项目名,要与模块目录名一致

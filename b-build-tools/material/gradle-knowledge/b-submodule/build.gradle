@@ -1,0 +1,4 @@
+dependencies {
+    //声明将另一个子模块项目作为自身的依赖,括号内的内容为引入的子模块项目名,要与settings.gradle中书写的一致
+    implementation project(':a-submodule')
+}

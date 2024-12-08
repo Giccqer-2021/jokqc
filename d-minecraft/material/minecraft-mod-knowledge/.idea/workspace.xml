@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39e8d3a4-7bce-4f87-9d4d-10bc8699da93" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/.idea/modules/a-submodule/gradle-knowledge.a-submodule.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/.idea/modules/b-submodule/gradle-knowledge.b-submodule.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/.idea/modules/gradle-knowledge.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/a-submodule/src/main/java/org/giccqer/FirstSubModuleStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/b-submodule/src/main/java/org/giccqer/SecondSubModuleStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/grammar-test.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/src/main/java/org/giccqer/FatherStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/gradle-knowledge/src/main/java/org/giccqer/dto/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b-build-tools/material/mavne-knowledge/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/minecraft-mod-knowledge.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/minecraft-mod-knowledge.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../g-springboot/material/springsecurity-knowledge/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/a-client-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/a-client-provider/src/main/java/org/giccqer/provider/ProviderStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/a-client-provider/src/main/java/org/giccqer/provider/controller/InfoProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/a-client-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/java/org/giccqer/consumer/ConsumerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/java/org/giccqer/consumer/config/ConfigurationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/java/org/giccqer/consumer/controller/InfoConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/java/org/giccqer/consumer/controller/ReadConfigurationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/java/org/giccqer/consumer/feign/ConfigurationCenterFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/java/org/giccqer/consumer/feign/FeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../b-build-tools/3-gradle安装配置,命令,groovy.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b-build-tools/3-gradle安装配置,命令,groovy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../b-build-tools/material/mavne-knowledge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b-build-tools/material/mavne-knowledge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../g-springboot/1-构建,打包,日志.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../g-springboot/1-构建,打包,日志.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="minecraft-mod-knowledge" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="minecraft-mod-knowledge" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="minecraft-mod-knowledge" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Giccqer-2021&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Giccqer-2021/jokqc.git&quot;,
+    &quot;accountId&quot;: &quot;f1635af7-1c34-4a94-b560-62cc3e8ab58f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pgjVqfu6sO1z5Hmoe1aTZjHsha" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.D:/知识/java-knowledge/d-minecraft/material/minecraft-mod-knowledge [createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.minecraft-mod-knowledge [createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.minecraft-mod-knowledge [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="minecraft-mod-knowledge [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.minecraft-mod-knowledge [runClient]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="39e8d3a4-7bce-4f87-9d4d-10bc8699da93" name="更改" comment="" />
+      <created>1733194640813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733194640813</updated>
+    </task>
+    <servers />
+  </component>
+</project>

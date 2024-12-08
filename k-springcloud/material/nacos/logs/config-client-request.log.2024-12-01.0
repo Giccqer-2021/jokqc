@@ -1,0 +1,17 @@
+2024-12-01 00:04:05,925|3|null|127.0.0.1|get|example.properties|DEFAULT_GROUP|||null
+2024-12-01 00:04:26,364|6|null|127.0.0.1|get|config-faces.yaml|DEFAULT_GROUP||c0a586ba6b2b3f2d4e222019a932e656|null
+2024-12-01 00:04:37,148|1|null|127.0.0.1|get|config-faces.yml|DEFAULT_GROUP||c0a586ba6b2b3f2d4e222019a932e656|null
+2024-12-01 00:08:08,314|1|null|127.0.0.1|get|config-faces.yml|DEFAULT_GROUP||c0a586ba6b2b3f2d4e222019a932e656|null
+2024-12-01 00:11:20,264|1|null|127.0.0.1|get|config-faces.yml|DEFAULT_GROUP||c0a586ba6b2b3f2d4e222019a932e656|null
+2024-12-01 00:22:23,483|13|true|127.0.0.1|publish|config-faces.properties|DEFAULT_GROUP||25a822367cd73c79acc56da3c73fa07e|null
+2024-12-01 00:23:06,024|1|null|127.0.0.1|get|config-faces.yml|DEFAULT_GROUP||c0a586ba6b2b3f2d4e222019a932e656|null
+2024-12-01 00:23:29,879|3|true|127.0.0.1|publish|config-faces.yml|DEFAULT_GROUP||25a822367cd73c79acc56da3c73fa07e|null
+2024-12-01 00:24:44,484|2|true|127.0.0.1|publish|config-faces.yaml|DEFAULT_GROUP||0301ce8910bcef773b2784e8822cd0c8|null
+2024-12-01 00:26:54,758|11|true|0:0:0:0:0:0:0:1|publish|config-faces.properties|DEFAULT_GROUP||25a822367cd73c79acc56da3c73fa07e|null
+2024-12-01 00:27:04,649|0|null|127.0.0.1|get|config-faces.yml|DEFAULT_GROUP|||null
+2024-12-01 00:30:32,560|0|null|127.0.0.1|get|config-faces.yml|DEFAULT_GROUP|||null
+2024-12-01 00:34:38,720|2|true|0:0:0:0:0:0:0:1|publish|config-faces.yml|DEFAULT_GROUP||c0a586ba6b2b3f2d4e222019a932e656|null
+2024-12-01 00:39:02,402|3|true|0:0:0:0:0:0:0:1|publish|faces.yaml|DEFAULT_GROUP||c0a586ba6b2b3f2d4e222019a932e656|null
+2024-12-01 00:39:52,921|3|true|0:0:0:0:0:0:0:1|publish|faces.yaml|DEFAULT_GROUP||2fcab3863dd20ff95f880d313510a848|null
+2024-12-01 00:44:01,031|2|null|127.0.0.1|get|config-faces.yml|DEFAULT_GROUP|||null
+2024-12-01 00:48:43,263|3|true|0:0:0:0:0:0:0:1|publish|CONSUMER-dev|DEFAULT_GROUP||c0a586ba6b2b3f2d4e222019a932e656|null

@@ -1,0 +1,96 @@
+String customMessage1 = '你好我是java请多指教😀' //自定义的单行文本,在gradle中所有的分号都可以省略
+def insertNumber = 7417417474741 //使用def自定义的long型(推断类型)
+//将上long类型对象插入下方文本中,使用${}占位符
+def customMessage2 = "你好我是gradle请多指教😄,这是我的电话号码: ${insertNumber}" //使用def定义的GString
+def customMessage3 = '''你好我是C++请多指教😁
+这是一条多行文本O(∩_∩)O哈哈~''' //使用三个单引号创建的多行文本
+//println customMessage1 + '\n' + customMessage2 + '\n' + customMessage3 //写在task外则该方法无论如何都会执行
+tasks.register('printAllMessages') { //自定义的可执行的task任务
+    //使用print()方法输出字符串.在gradle中,若不引起歧义,括号()大括号{}皆可省略
+    println customMessage1 + '\n' + customMessage2 + '\n' + customMessage3
+}
+
+ext { //在ext闭包中定义的变量为全局变量,可以向上传导至build.gradle中
+    customMessage4 = "你好我是全局变量请多指教😊" //不可以显式定义该变量类型,在ext中的变量默认是动态类型
+}
+
+def numberList = [1, 2, 3] //定义一个List,默认类型是ArrayList
+numberList << 4 //使用<<号向List尾部添加元素
+numberList -= 1 //使用-=号从List中移除元素值为1的元素
+//定义一个Map,默认类型是LinkedHashMap
+def personInfoMap = ['姓名': '王大美', '性别': '女', '年龄': 18, '电话': 12345678910, '生日': new Date()]
+tasks.register('printCirculationElements') {
+    for (i in 1..3) println '普通循环次数: ' + i //使用for循环遍历1到3的数字
+    for (element in numberList) println '循环输出List中的元素: ' + element //使用for-in循环遍历List
+    for (info in personInfoMap) println '循环输出Map中的元素: ' + info.key + '---' + info.value //使用for-in循环遍历Map
+}
+//自定义闭包(函数),没有形参或只有一个形参时可省略对形参的定义,只有一个形参时函数体内用it代表它.所有的闭包都是 groovy.lang.Closure 类的实例
+def printOneMessage = { println it }
+def mergeThreeMessage = { message1, message2, message3 -> //定义拥有三个形参的闭包(函数)
+    message1 + '\n' + message2 + '\n' + message3 //闭包中以最后一句话作为方法返回值,可不写return
+}
+tasks.register('printClosureMessage') {
+    printOneMessage '你好我是闭包请多指教😘'
+    println mergeThreeMessage('我的世界是全世界最好玩的游戏!', 'java是全世界最好用的语言', 'gradle是全世界最好用的构建工具')
+}
+
+//定义一个类,兼容使用传统java方法定义,默认类和字段以public修饰(可省略),并自动生成全参构造,无参构造,getter和setter方法
+class CustomerInfo {
+    String name
+    boolean isMale
+    int age
+    Long phoneNumber
+    Date birthday
+
+    @Override
+    String toString() {
+        "CustomerInfo{name=" + name + ", isMale=" + isMale + ", age=" + age + ", phoneNumber=" + phoneNumber + ", birthday=" + birthday + '}'
+    }
+}
+//创建实例时,使用 字段名:值 的方法为其中的字段赋值
+def customerInfo = new CustomerInfo(name: '王小明', isMale: true, age: 18, phoneNumber: 12345678910, birthday: new Date())
+tasks.register('printCustomerInfo') {
+    println customerInfo
+}
+
+tasks.register('printOrderTest') { //在task定义时使用doFirst方法和doLast方法可以决定该task在构建时要执行什么方法
+    doFirst { //doFirst方法在doLast方法执行前倒序执行
+        println 'doFirst1 方法执行'
+    }
+    doFirst {
+        println 'doFirst2 方法执行'
+    }
+    println '核心方法执行,本task的名字是: ' + it.name //name为task的一个属性值
+    doLast { //doLast方法在doFirst方法执行后顺序执行
+        println 'doLast1 方法执行'
+    }
+    doLast {
+        println 'doLast2 方法执行'
+    }
+}
+
+class CustomTask extends DefaultTask { //自定义task类,继承DefaultTask,可以定义多个方法倒序执行
+    @Input
+    //该字段不能为空,可以在定义task时传入值
+    String info = '默认信息'
+
+    @TaskAction
+    //将该方法视为一个task,可以被注册发现
+    def printInfo1() {
+        println '使用第一个方法打印输出: ' + info
+    }
+
+    @TaskAction
+    def printInfo2() {
+        println '使用第二个方法打印输出: ' + info
+    }
+
+    @TaskAction
+    def printInfo3() {
+        println '使用第三个方法打印输出: ' + info
+    }
+}
+
+tasks.register('printCustomTaskInfo', CustomTask) { //第二个参数是自定义的task类
+    info = '你好我是自定义任务请多指教' //在闭包中定义该字段的值
+}

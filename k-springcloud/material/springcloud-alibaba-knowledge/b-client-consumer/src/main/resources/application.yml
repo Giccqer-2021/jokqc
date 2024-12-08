@@ -1,0 +1,9 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: CONSUMER
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ip6-localhost:8848

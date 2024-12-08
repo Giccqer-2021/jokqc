@@ -1,0 +1,7 @@
+//与maven不同,只要父项目包含的东西不需要更改,子项目就什么都不需要写
+dependencies {
+    //以下项目皆被纳入父项目的版本管理中了,注意:使用api方法前需要导入 java-library 插件
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
+    api 'org.mybatis:mybatis' //与 implementation 用法相同,但被api声明的依赖会被传递到子项目中,而implementation不会
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+}
