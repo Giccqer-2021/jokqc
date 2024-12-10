@@ -234,7 +234,7 @@
 
    然后在 [ConfigurationController.java](material\springcloud-knowledge\b-eureka-client\b2-consumer\src\main\java\org\giccqer\consumer\controller\ConfigurationController.java) 类中添加如下类注解:
    ```java
-   @RestController
+   @RefreshScope
    ```
 
 3. 访问  http://localhost:8090/get-remote-config ,然后修改位于远程仓库中的配置文件 [config-cars.yml](material\springcloud-knowledge\remote-config\springcloud-config\config-cars.yml) (实际上在本地克隆好的仓库中修改然后再推上去即可,如果只读取本地配置则直接修改即可),打开cmd面板,输入以下指令使用post方法访问该端点:

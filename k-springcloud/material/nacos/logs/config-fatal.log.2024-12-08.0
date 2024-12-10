@@ -1,0 +1,50 @@
+2024-12-08 23:34:14,487 ERROR dump config failNo DataSource set
+
+2024-12-08 23:34:14,490 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2024-12-08 23:34:24,851 ERROR dump config failNo DataSource set
+
+2024-12-08 23:34:24,852 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2024-12-08 23:34:38,367 ERROR dump config failNo DataSource set
+
+2024-12-08 23:34:38,367 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2024-12-08 23:39:02,023 ERROR dump config failNo DataSource set
+
+2024-12-08 23:39:02,023 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2024-12-08 23:39:35,640 ERROR dump config failNo DataSource set
+
+2024-12-08 23:39:35,641 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2024-12-08 23:40:38,038 ERROR dump config failNo DataSource set
+
+2024-12-08 23:40:38,038 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2024-12-08 23:42:32,347 ERROR dump config failNo DataSource set
+
+2024-12-08 23:42:32,347 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2024-12-08 23:48:42,977 ERROR dump config failNo DataSource set
+
+2024-12-08 23:48:42,977 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2024-12-08 23:52:14,907 ERROR dump config failNo DataSource set
+
+2024-12-08 23:52:14,908 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2024-12-08 23:56:26,450 ERROR dump config failNo DataSource set
+
+2024-12-08 23:56:26,450 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+

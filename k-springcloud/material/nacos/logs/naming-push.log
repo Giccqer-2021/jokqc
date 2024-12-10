@@ -1,2 +1,34 @@
-2024-12-08 22:25:18,684 INFO [PUSH-SUCC] 14ms, all delay time 619ms for subscriber 192.168.116.1, Service{namespace='public', group='DEFAULT_GROUP', name='PROVIDER', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+2024-12-10 11:15:45,008 INFO [PUSH-SUCC] 15ms, all delay time 562ms for subscriber 192.168.116.1, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-12-10 11:22:28,415 INFO [PUSH-SUCC] 11ms, all delay time 617ms, SLA 617ms, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.116.1
+
+2024-12-10 11:22:34,579 INFO [PUSH-SUCC] 7ms, all delay time 565ms, SLA 565ms, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.116.1
+
+2024-12-10 11:25:29,594 INFO [PUSH-SUCC] 5ms, all delay time 548ms, SLA 548ms, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.116.1
+
+2024-12-10 11:25:47,046 INFO [PUSH-SUCC] 5ms, all delay time 593ms, SLA 593ms, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.116.1
+
+2024-12-10 12:31:49,098 INFO [PUSH-SUCC] 8ms, all delay time 539ms, SLA 539ms, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.116.1
+
+2024-12-10 12:31:54,946 INFO [PUSH-SUCC] 5ms, all delay time 555ms, SLA 556ms, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.116.1
+
+2024-12-10 12:50:21,436 INFO [PUSH-SUCC] 6ms, all delay time 543ms, SLA 543ms, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=192.168.116.1
+
+2024-12-10 12:50:26,941 INFO [PUSH-SUCC] 4ms, all delay time 564ms, SLA 564ms, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.116.1
+
+2024-12-10 13:11:00,384 INFO [PUSH-SUCC] 6ms, all delay time 597ms for subscriber 192.168.116.1, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2024-12-10 13:11:34,735 INFO [PUSH-SUCC] 6ms, all delay time 602ms for subscriber 192.168.116.1, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2024-12-10 13:14:57,108 INFO [PUSH-SUCC] 5ms, all delay time 508ms for subscriber 192.168.116.1, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2024-12-10 13:17:35,178 INFO [PUSH-SUCC] 5ms, all delay time 523ms for subscriber 192.168.116.1, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2024-12-10 13:42:26,863 INFO [PUSH-SUCC] 7ms, all delay time 612ms for subscriber 192.168.116.1, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2024-12-10 13:43:17,086 INFO [PUSH-SUCC] 6ms, all delay time 549ms for subscriber 192.168.116.1, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2024-12-10 13:50:52,346 INFO [PUSH-SUCC] 9ms, all delay time 531ms for subscriber 192.168.116.1, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-12-10 14:00:38,276 INFO [PUSH-SUCC] 7ms, all delay time 611ms for subscriber 192.168.116.1, Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=1}, originalSize=1, DataSize=1
 

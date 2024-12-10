@@ -1,7 +1,5 @@
 # gradle安装,配置,命令,语法,groovy
 
-## 概述
-
 > gradle作为替代maven的新一代构建工具,有着比maven更快的构建速度和更简洁的语法说明
 > 相对于maven使用xml文件配置构建,gradle使用 .gradle 作为脚本文件, task任务 作为方法进行构建
 

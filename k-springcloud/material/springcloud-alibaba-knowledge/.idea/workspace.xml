@@ -5,72 +5,166 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f337ad75-7a3a-4bba-b962-03e4cf626cde" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/b-client-consumer/src/main/java/org/giccqer/consumer/config/SentinelRequestIp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b-client-consumer/src/main/java/org/giccqer/consumer/handler/SentinelCleanHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b-client-consumer/src/main/java/org/giccqer/consumer/handler/SentinelExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b-client-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/nacos-tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../b-build-tools/3-gradle安装,配置,命令,语法,groovy.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b-build-tools/3-gradle安装,配置,命令,语法,groovy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../b-build-tools/4-build文件架构,gradle多模块.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b-build-tools/4-build文件架构,gradle多模块.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-Configuration center配置中心.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-Configuration center配置中心.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../5-nacos.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../5-nacos.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/bin/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/bin/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/bin/startalone.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/bin/startalone.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/conf/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/config-data/DEFAULT_GROUP/config-cars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/config-data/DEFAULT_GROUP/config-cars.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/config-data/DEFAULT_GROUP/config-faces.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/config-data/DEFAULT_GROUP/config-faces.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/config-data/DEFAULT_GROUP/config-houses.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/config-data/DEFAULT_GROUP/config-houses.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c400.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c490.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4c1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4d1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4e1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c4f0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c501.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c501.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c511.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c511.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c521.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c521.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c531.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c531.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c700.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c700.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c711.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c711.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c721.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c721.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c731.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c731.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/derby-data/seg0/c81.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000034.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000008.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000009.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000014.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000015.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000020.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000021.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000026.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000027.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000032.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000033.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000038.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000039.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/000040.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/CURRENT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/LOCK" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/LOCK" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000034.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/MANIFEST-000041" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/OPTIONS-000037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_instance_metadata/log/OPTIONS-000043" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000008.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000009.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000014.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000015.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000020.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000021.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000026.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000027.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000032.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000033.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000038.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000039.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/000040.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/CURRENT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/LOCK" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/LOCK" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000034.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/MANIFEST-000041" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/OPTIONS-000037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service/log/OPTIONS-000043" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000008.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000009.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000014.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000015.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000020.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000021.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000026.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000027.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000032.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000033.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000038.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000039.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/000040.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/CURRENT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/LOCK" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/LOCK" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000034.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/MANIFEST-000041" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/OPTIONS-000037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_persistent_service_v2/log/OPTIONS-000043" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000008.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000009.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000014.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000015.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000020.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000021.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000026.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000027.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000032.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000033.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000038.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000039.sst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/000040.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/CURRENT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/LOCK" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/LOCK" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/MANIFEST-000041" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/OPTIONS-000037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/protocol/raft/naming_service_metadata/log/OPTIONS-000043" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/tenant-config-data/650aa661-a650-4b0b-a0e1-1072bd97268b/DEFAULT_GROUP/config-faces.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/tenant-config-data/650aa661-a650-4b0b-a0e1-1072bd97268b/DEFAULT_GROUP/config-faces2.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/data/tenant-config-data/ce2bb47e-4538-4d72-a705-adc1ef76fe55/DEFAULT_GROUP/config-faces.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/data/tenant-config-data/ce2bb47e-4538-4d72-a705-adc1ef76fe55/DEFAULT_GROUP/config-faces.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/alipay-jraft.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/alipay-jraft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/alipay-jraft.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/alipay-jraft.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/config-client-request.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-client-request.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-client-request.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-client-request.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/config-dump.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-dump.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-dump.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-dump.log.2024-12-02.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-fatal.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-fatal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-memory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-memory.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-memory.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/config-pull-check.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-pull-check.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-pull-check.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-pull-check.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-server.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/config-trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/config-trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-trace.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/config-trace.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos-cluster.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos-cluster.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos-cluster.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos-persistence.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos-persistence.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos-persistence.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/nacos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/nacos.log.2024-12-02.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-distro.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-distro.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-performance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-performance.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-performance.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-push.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-push.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-push.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-push.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-raft.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/naming-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-server.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/naming-server.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/plugin-control-connection.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/plugin-control-connection.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/plugin-control-connection.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/plugin-control-connection.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/plugin-control.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/plugin-control.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/protocol-distro.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/protocol-distro.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/protocol-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/protocol-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/protocol-raft.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/remote-digest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/remote-digest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/remote-digest.log.2024-12-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/remote-digest.log.2024-12-02.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nacos/logs/remote.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nacos/logs/remote.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-client-provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/b-client-consumer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nacos/logs/remote.log.2024-12-02.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-client-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/a-client-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b-client-consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/b-client-consumer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b-client-consumer/src/main/java/org/giccqer/consumer/controller/ReadConfigurationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/b-client-consumer/src/main/java/org/giccqer/consumer/controller/ReadConfigurationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b-client-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/b-client-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-knowledge/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-knowledge/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +207,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -137,24 +238,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.springcloud-alibaba-knowledge [:org.giccqer.Main.main()].executor": "Run",
-    "Gradle.springcloud-alibaba-knowledge [clean].executor": "Run",
-    "Gradle.springcloud-alibaba-knowledge [dependencies].executor": "Run",
-    "Gradle.springcloud-alibaba-knowledge:a-client-provider [:a-client-provider:org.giccqer.provider.ProviderStarter.main()].executor": "Run",
-    "Gradle.springcloud-alibaba-knowledge:b-client-consumer [:b-client-consumer:org.giccqer.consumer.ConsumerStarter.main()].executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/知识/java-knowledge/k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/resources",
-    "onboarding.tips.debug.path": "D:/知识/java-knowledge/k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/java/org/giccqer/consumer/Main.java",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.springcloud-alibaba-knowledge [:org.giccqer.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springcloud-alibaba-knowledge [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springcloud-alibaba-knowledge [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springcloud-alibaba-knowledge:a-client-provider [:a-client-provider:org.giccqer.provider.ProviderStarter.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springcloud-alibaba-knowledge:b-client-consumer [:b-client-consumer:org.giccqer.consumer.ConsumerStarter.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.下载源代码.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/知识/java-knowledge/k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/resources&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/知识/java-knowledge/k-springcloud/material/springcloud-alibaba-knowledge/b-client-consumer/src/main/java/org/giccqer/consumer/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\知识\java-knowledge\k-springcloud\material\springcloud-alibaba-knowledge\b-client-consumer\src\main\resources" />
@@ -163,8 +266,8 @@
       <recent name="D:\知识\java-knowledge\k-springcloud\material\springcloud-alibaba-knowledge\a-client-provider\src\main\java\org\giccqer\provider" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.a-ProviderStarter">
-    <configuration name="a-ProviderStarter" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="应用程序.b-ConsumerStarter">
+    <configuration name="a-ProviderStarter" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.giccqer.provider.ProviderStarter" />
       <module name="springcloud-alibaba-knowledge.a-client-provider.main" />
       <extension name="coverage">
@@ -177,7 +280,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="b-ConsumerStarter" type="Application" factoryName="Application" temporary="true">
+    <configuration name="b-ConsumerStarter" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.giccqer.consumer.ConsumerStarter" />
       <module name="springcloud-alibaba-knowledge.b-client-consumer.main" />
       <extension name="coverage">
@@ -242,8 +345,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.b-ConsumerStarter" />
-        <item itemvalue="应用程序.a-ProviderStarter" />
         <item itemvalue="Gradle.springcloud-alibaba-knowledge [dependencies]" />
         <item itemvalue="Gradle.springcloud-alibaba-knowledge [clean]" />
       </list>

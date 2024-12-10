@@ -1,4 +1,0 @@
-2024-12-01 00:00:19,974 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='CONSUMER', ephemeral=true, revision=2}
-
-2024-12-01 00:00:38,748 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='CONSUMER', ephemeral=true, revision=4}
-

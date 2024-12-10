@@ -1,0 +1,17 @@
+#忽略自身
+#.gitignore
+
+#忽略特定文件夹
+0-java文档,杂项/
+**/待定
+
+#忽略特定文件
+**/!*.md
+**/secret-info.yml
+**/+待补充的知识+.md
+
+#忽略不必要的工程文件夹
+**/target/
+**/build/
+**/.gradle/
+#**/node_modules/

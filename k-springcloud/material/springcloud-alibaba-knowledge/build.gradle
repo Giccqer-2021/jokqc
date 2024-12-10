@@ -24,10 +24,12 @@ subprojects {
     dependencies {
         implementation 'org.springframework.boot:spring-boot-starter-web'
         implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery'
+        implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-sentinel'
     }
     dependencyManagement {
         dependencies {
             imports {
+                //根据官方说法,spring-cloud-alibaba:2023.0.1.3 对应 Springboot版本3.2.4,spring-cloud 版本 2023.0.1,nacos版本2.3.2
                 mavenBom 'org.springframework.boot:spring-boot-dependencies:3.3.4'
                 mavenBom 'org.springframework.cloud:spring-cloud-dependencies:2023.0.4'
                 mavenBom 'com.alibaba.cloud:spring-cloud-alibaba-dependencies:2023.0.1.3'

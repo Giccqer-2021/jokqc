@@ -1,0 +1,738 @@
+2024-12-09 00:01:22,840 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces2.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=e34a66a8b80a4e266ac09576ac4ac845,oldMd5=
+
+2024-12-09 00:01:22,840 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=dc9b04bdb690ecf2a0cf06350a686ece,oldMd5=
+
+2024-12-09 00:01:22,840 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=1f15f20ff3992540b27aebcd329cda3b,oldMd5=
+
+2024-12-09 00:01:22,840 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=
+
+2024-12-09 00:01:22,840 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=1180ccebfa8a5fd30b241bc26a7e446d,oldMd5=
+
+2024-12-09 00:01:22,840 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=
+
+2024-12-09 00:01:22,864 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=,lastModifiedTs=1733146862917
+
+2024-12-09 00:01:22,865 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733146862917, length=96,md5UTF8=d3b79db2ed5036d508a64d8772b963e6
+
+2024-12-09 00:01:22,865 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=,lastModifiedTs=1733144587800
+
+2024-12-09 00:01:22,866 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733144587800, length=96,md5UTF8=d3b79db2ed5036d508a64d8772b963e6
+
+2024-12-09 00:01:22,865 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces2.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=e34a66a8b80a4e266ac09576ac4ac845,oldMd5=,lastModifiedTs=1733146450060
+
+2024-12-09 00:01:22,865 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=1180ccebfa8a5fd30b241bc26a7e446d,oldMd5=,lastModifiedTs=1733135795982
+
+2024-12-09 00:01:22,866 INFO [dump-all-ok] config-faces2.yml+DEFAULT_GROUP, 1733146450060, length=3,md5UTF8=e34a66a8b80a4e266ac09576ac4ac845
+
+2024-12-09 00:01:22,866 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733135795982, length=52,md5UTF8=1180ccebfa8a5fd30b241bc26a7e446d
+
+2024-12-09 00:01:22,866 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=dc9b04bdb690ecf2a0cf06350a686ece,oldMd5=,lastModifiedTs=1733135795974
+
+2024-12-09 00:01:22,866 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733135795974, length=55,md5UTF8=dc9b04bdb690ecf2a0cf06350a686ece
+
+2024-12-09 00:01:22,866 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=1f15f20ff3992540b27aebcd329cda3b,oldMd5=,lastModifiedTs=1733143383897
+
+2024-12-09 00:01:22,867 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733143383897, length=78,md5UTF8=1f15f20ff3992540b27aebcd329cda3b
+
+2024-12-09 12:47:44,357 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=dc9b04bdb690ecf2a0cf06350a686ece,oldMd5=
+
+2024-12-09 12:47:44,357 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=1f15f20ff3992540b27aebcd329cda3b,oldMd5=
+
+2024-12-09 12:47:44,357 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces2.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=e34a66a8b80a4e266ac09576ac4ac845,oldMd5=
+
+2024-12-09 12:47:44,357 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=
+
+2024-12-09 12:47:44,357 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=1180ccebfa8a5fd30b241bc26a7e446d,oldMd5=
+
+2024-12-09 12:47:44,357 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=
+
+2024-12-09 12:47:44,383 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces2.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=e34a66a8b80a4e266ac09576ac4ac845,oldMd5=,lastModifiedTs=1733146450060
+
+2024-12-09 12:47:44,383 INFO [dump-all-ok] config-faces2.yml+DEFAULT_GROUP, 1733146450060, length=3,md5UTF8=e34a66a8b80a4e266ac09576ac4ac845
+
+2024-12-09 12:47:44,383 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=1f15f20ff3992540b27aebcd329cda3b,oldMd5=,lastModifiedTs=1733143383897
+
+2024-12-09 12:47:44,384 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733143383897, length=78,md5UTF8=1f15f20ff3992540b27aebcd329cda3b
+
+2024-12-09 12:47:44,384 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=,lastModifiedTs=1733146862917
+
+2024-12-09 12:47:44,384 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=1180ccebfa8a5fd30b241bc26a7e446d,oldMd5=,lastModifiedTs=1733135795982
+
+2024-12-09 12:47:44,384 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733146862917, length=96,md5UTF8=d3b79db2ed5036d508a64d8772b963e6
+
+2024-12-09 12:47:44,384 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733135795982, length=52,md5UTF8=1180ccebfa8a5fd30b241bc26a7e446d
+
+2024-12-09 12:47:44,383 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=dc9b04bdb690ecf2a0cf06350a686ece,oldMd5=,lastModifiedTs=1733135795974
+
+2024-12-09 12:47:44,384 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=,lastModifiedTs=1733144587800
+
+2024-12-09 12:47:44,384 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733135795974, length=55,md5UTF8=dc9b04bdb690ecf2a0cf06350a686ece
+
+2024-12-09 12:47:44,384 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733144587800, length=96,md5UTF8=d3b79db2ed5036d508a64d8772b963e6
+
+2024-12-09 13:38:23,488 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces2.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=e34a66a8b80a4e266ac09576ac4ac845,oldMd5=
+
+2024-12-09 13:38:23,488 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=dc9b04bdb690ecf2a0cf06350a686ece,oldMd5=
+
+2024-12-09 13:38:23,488 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=1180ccebfa8a5fd30b241bc26a7e446d,oldMd5=
+
+2024-12-09 13:38:23,488 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=
+
+2024-12-09 13:38:23,488 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=1f15f20ff3992540b27aebcd329cda3b,oldMd5=
+
+2024-12-09 13:38:23,488 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=
+
+2024-12-09 13:38:23,511 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=1f15f20ff3992540b27aebcd329cda3b,oldMd5=,lastModifiedTs=1733143383897
+
+2024-12-09 13:38:23,511 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=dc9b04bdb690ecf2a0cf06350a686ece,oldMd5=,lastModifiedTs=1733135795974
+
+2024-12-09 13:38:23,511 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=1180ccebfa8a5fd30b241bc26a7e446d,oldMd5=,lastModifiedTs=1733135795982
+
+2024-12-09 13:38:23,512 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces2.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=e34a66a8b80a4e266ac09576ac4ac845,oldMd5=,lastModifiedTs=1733146450060
+
+2024-12-09 13:38:23,512 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+650aa661-a650-4b0b-a0e1-1072bd97268b, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=,lastModifiedTs=1733144587800
+
+2024-12-09 13:38:23,512 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733143383897, length=78,md5UTF8=1f15f20ff3992540b27aebcd329cda3b
+
+2024-12-09 13:38:23,512 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733135795974, length=55,md5UTF8=dc9b04bdb690ecf2a0cf06350a686ece
+
+2024-12-09 13:38:23,512 INFO [dump-all-ok] config-faces2.yml+DEFAULT_GROUP, 1733146450060, length=3,md5UTF8=e34a66a8b80a4e266ac09576ac4ac845
+
+2024-12-09 13:38:23,512 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733144587800, length=96,md5UTF8=d3b79db2ed5036d508a64d8772b963e6
+
+2024-12-09 13:38:23,512 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=d3b79db2ed5036d508a64d8772b963e6,oldMd5=,lastModifiedTs=1733146862917
+
+2024-12-09 13:38:23,512 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733146862917, length=96,md5UTF8=d3b79db2ed5036d508a64d8772b963e6
+
+2024-12-09 13:38:23,512 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733135795982, length=52,md5UTF8=1180ccebfa8a5fd30b241bc26a7e446d
+
+2024-12-09 13:38:50,865 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 13:38:50,865 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 13:38:50,866 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 13:38:50,964 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 13:38:50,974 INFO [dump] remove  local disk cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 13:38:50,975 INFO [dump] remove  local jvm cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 13:38:50,976 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 13:38:50,977 INFO [dump] remove  local disk cache,groupKey=config-cars.yml+DEFAULT_GROUP 
+
+2024-12-09 13:38:50,978 INFO [dump] remove  local jvm cache,groupKey=config-cars.yml+DEFAULT_GROUP 
+
+2024-12-09 13:38:50,978 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 13:38:50,979 INFO [dump] remove  local disk cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-09 13:38:50,980 INFO [dump] remove  local jvm cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-09 13:38:58,132 INFO [dump] add formal task. groupKey=config-cars.yaml+DEFAULT_GROUP
+
+2024-12-09 13:38:58,132 INFO [dump] add formal task. groupKey=config-faces.yaml+DEFAULT_GROUP
+
+2024-12-09 13:38:58,132 INFO [dump] add formal task. groupKey=config-houses.yaml+DEFAULT_GROUP
+
+2024-12-09 13:38:58,229 INFO [dump] process formal task. groupKey=config-houses.yaml+DEFAULT_GROUP
+
+2024-12-09 13:38:58,231 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yaml+DEFAULT_GROUP, newMd5=1180ccebfa8a5fd30b241bc26a7e446d,oldMd5=
+
+2024-12-09 13:38:58,235 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yaml+DEFAULT_GROUP, newMd5=1180ccebfa8a5fd30b241bc26a7e446d,oldMd5=,lastModifiedTs=1733722738129
+
+2024-12-09 13:38:58,235 INFO [dump] process formal task. groupKey=config-cars.yaml+DEFAULT_GROUP
+
+2024-12-09 13:38:58,237 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yaml+DEFAULT_GROUP, newMd5=dc9b04bdb690ecf2a0cf06350a686ece,oldMd5=
+
+2024-12-09 13:38:58,239 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yaml+DEFAULT_GROUP, newMd5=dc9b04bdb690ecf2a0cf06350a686ece,oldMd5=,lastModifiedTs=1733722738120
+
+2024-12-09 13:38:58,239 INFO [dump] process formal task. groupKey=config-faces.yaml+DEFAULT_GROUP
+
+2024-12-09 13:38:58,240 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yaml+DEFAULT_GROUP, newMd5=c0a586ba6b2b3f2d4e222019a932e656,oldMd5=
+
+2024-12-09 13:38:58,242 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yaml+DEFAULT_GROUP, newMd5=c0a586ba6b2b3f2d4e222019a932e656,oldMd5=,lastModifiedTs=1733722738126
+
+2024-12-09 13:41:08,936 INFO [dump] add formal task. groupKey=config-cars.yaml+DEFAULT_GROUP
+
+2024-12-09 13:41:08,936 INFO [dump] add formal task. groupKey=config-faces.yaml+DEFAULT_GROUP
+
+2024-12-09 13:41:08,936 INFO [dump] add formal task. groupKey=config-houses.yaml+DEFAULT_GROUP
+
+2024-12-09 13:41:09,007 INFO [dump] process formal task. groupKey=config-houses.yaml+DEFAULT_GROUP
+
+2024-12-09 13:41:09,008 INFO [dump] remove  local disk cache,groupKey=config-houses.yaml+DEFAULT_GROUP 
+
+2024-12-09 13:41:09,010 INFO [dump] remove  local jvm cache,groupKey=config-houses.yaml+DEFAULT_GROUP 
+
+2024-12-09 13:41:09,011 INFO [dump] process formal task. groupKey=config-cars.yaml+DEFAULT_GROUP
+
+2024-12-09 13:41:09,011 INFO [dump] remove  local disk cache,groupKey=config-cars.yaml+DEFAULT_GROUP 
+
+2024-12-09 13:41:09,013 INFO [dump] remove  local jvm cache,groupKey=config-cars.yaml+DEFAULT_GROUP 
+
+2024-12-09 13:41:09,013 INFO [dump] process formal task. groupKey=config-faces.yaml+DEFAULT_GROUP
+
+2024-12-09 13:41:09,014 INFO [dump] remove  local disk cache,groupKey=config-faces.yaml+DEFAULT_GROUP 
+
+2024-12-09 13:41:09,016 INFO [dump] remove  local jvm cache,groupKey=config-faces.yaml+DEFAULT_GROUP 
+
+2024-12-09 13:41:55,869 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 13:41:55,869 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 13:41:55,869 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 13:41:55,916 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 13:41:55,920 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=1180ccebfa8a5fd30b241bc26a7e446d,oldMd5=
+
+2024-12-09 13:41:55,921 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=1180ccebfa8a5fd30b241bc26a7e446d,oldMd5=,lastModifiedTs=1733722915867
+
+2024-12-09 13:41:55,921 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 13:41:55,922 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=dc9b04bdb690ecf2a0cf06350a686ece,oldMd5=
+
+2024-12-09 13:41:55,923 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=dc9b04bdb690ecf2a0cf06350a686ece,oldMd5=,lastModifiedTs=1733722915861
+
+2024-12-09 13:41:55,924 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 13:41:55,925 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=c0a586ba6b2b3f2d4e222019a932e656,oldMd5=
+
+2024-12-09 13:41:55,926 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=c0a586ba6b2b3f2d4e222019a932e656,oldMd5=,lastModifiedTs=1733722915864
+
+2024-12-09 14:05:33,150 INFO [dump] add formal task. groupKey=fff+DEFAULT_GROUP
+
+2024-12-09 14:05:33,196 INFO [dump] process formal task. groupKey=fff+DEFAULT_GROUP
+
+2024-12-09 14:05:33,235 INFO [dump] md5 changed, save to disk cache ,groupKey=fff+DEFAULT_GROUP, newMd5=633de4b0c14ca52ea2432a3c8a5c4c31,oldMd5=
+
+2024-12-09 14:05:33,248 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=fff+DEFAULT_GROUP, newMd5=633de4b0c14ca52ea2432a3c8a5c4c31,oldMd5=,lastModifiedTs=1733753133000
+
+2024-12-09 14:05:38,941 INFO [dump] add formal task. groupKey=fff+DEFAULT_GROUP
+
+2024-12-09 14:05:39,045 INFO [dump] process formal task. groupKey=fff+DEFAULT_GROUP
+
+2024-12-09 14:05:39,047 INFO [dump] remove  local disk cache,groupKey=fff+DEFAULT_GROUP 
+
+2024-12-09 14:05:39,049 INFO [dump] remove  local jvm cache,groupKey=fff+DEFAULT_GROUP 
+
+2024-12-09 14:06:58,155 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:06:58,175 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:06:58,177 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 14:06:58,178 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733753218000
+
+2024-12-09 14:12:03,230 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:12:03,312 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:12:03,315 INFO [dump] remove  local disk cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-09 14:12:03,317 INFO [dump] remove  local jvm cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-09 14:16:23,420 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:16:23,420 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:16:23,420 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:16:23,433 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:16:23,462 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 14:16:23,472 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733753783000
+
+2024-12-09 14:16:23,473 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:16:23,474 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 14:16:23,476 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733753783000
+
+2024-12-09 14:16:23,476 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:16:23,477 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 14:16:23,480 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733753783000
+
+2024-12-09 14:31:05,013 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:05,013 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:05,013 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:05,107 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:05,108 INFO [dump] remove  local disk cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 14:31:05,109 INFO [dump] remove  local jvm cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 14:31:05,110 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:05,110 INFO [dump] remove  local disk cache,groupKey=config-cars.yml+DEFAULT_GROUP 
+
+2024-12-09 14:31:05,111 INFO [dump] remove  local jvm cache,groupKey=config-cars.yml+DEFAULT_GROUP 
+
+2024-12-09 14:31:05,112 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:05,112 INFO [dump] remove  local disk cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-09 14:31:05,113 INFO [dump] remove  local jvm cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-09 14:31:47,551 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:47,551 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:47,551 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:47,558 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:47,561 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 14:31:47,563 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733754708000
+
+2024-12-09 14:31:47,563 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:47,564 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 14:31:47,565 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733754708000
+
+2024-12-09 14:31:47,566 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:31:47,567 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 14:31:47,568 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733754708000
+
+2024-12-09 14:42:45,315 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:42:45,315 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:42:45,315 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:42:45,345 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:42:45,347 INFO [dump] remove  local disk cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 14:42:45,349 INFO [dump] remove  local jvm cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 14:42:45,350 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:42:45,352 INFO [dump] remove  local disk cache,groupKey=config-cars.yml+DEFAULT_GROUP 
+
+2024-12-09 14:42:45,354 INFO [dump] remove  local jvm cache,groupKey=config-cars.yml+DEFAULT_GROUP 
+
+2024-12-09 14:42:45,355 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:42:45,357 INFO [dump] remove  local disk cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-09 14:42:45,359 INFO [dump] remove  local jvm cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-09 14:43:17,933 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:43:17,933 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:43:17,933 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:43:17,997 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:43:17,998 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 14:43:18,000 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733755398000
+
+2024-12-09 14:43:18,000 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:43:18,004 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 14:43:18,005 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733755398000
+
+2024-12-09 14:43:18,006 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:43:18,007 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 14:43:18,008 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733755398000
+
+2024-12-09 14:45:04,109 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:45:04,110 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:45:04,110 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:45:04,179 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:45:04,181 WARN [dump-ignore] ignore to save to disk cache. md5 consistent,groupKey=config-houses.yml+DEFAULT_GROUP, md5=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 14:45:04,181 WARN [dump-ignore] ignore to save to jvm cache. md5 consistent and no new timestamp changed.groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:45:04,181 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:45:04,182 WARN [dump-ignore] ignore to save to disk cache. md5 consistent,groupKey=config-cars.yml+DEFAULT_GROUP, md5=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 14:45:04,182 WARN [dump-ignore] ignore to save to jvm cache. md5 consistent and no new timestamp changed.groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:45:04,182 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:45:04,183 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=99194d79297fc9df300892b300e34d44,oldMd5=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 14:45:04,184 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=99194d79297fc9df300892b300e34d44,oldMd5=e7397a2de6abf79554e21f711bc516fc,lastModifiedTs=1733755398000
+
+2024-12-09 14:45:43,563 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=99194d79297fc9df300892b300e34d44,oldMd5=
+
+2024-12-09 14:45:43,564 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 14:45:43,564 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 14:45:43,573 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733755398000
+
+2024-12-09 14:45:43,574 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=99194d79297fc9df300892b300e34d44,oldMd5=,lastModifiedTs=1733755398000
+
+2024-12-09 14:45:43,574 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733755398000
+
+2024-12-09 14:45:43,574 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733755398000, length=69,md5UTF8=99194d79297fc9df300892b300e34d44
+
+2024-12-09 14:45:43,574 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733755398000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 14:45:43,574 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733755398000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 14:46:40,998 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:46:41,019 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:46:41,022 INFO [dump] remove  local disk cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 14:46:41,023 INFO [dump] remove  local jvm cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 14:46:46,379 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:46:46,430 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:46:46,432 INFO [dump] remove  local disk cache,groupKey=config-cars.yml+DEFAULT_GROUP 
+
+2024-12-09 14:46:46,435 INFO [dump] remove  local jvm cache,groupKey=config-cars.yml+DEFAULT_GROUP 
+
+2024-12-09 14:47:09,251 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:47:09,251 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:47:09,251 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:47:09,255 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:47:09,257 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 14:47:09,258 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733755629000
+
+2024-12-09 14:47:09,258 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:47:09,260 INFO [remove-ok] config-cars.yml+DEFAULT_GROUP not exist.
+
+2024-12-09 14:47:09,260 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:47:09,261 WARN [dump-ignore] ignore to save to disk cache. md5 consistent,groupKey=config-faces.yml+DEFAULT_GROUP, md5=99194d79297fc9df300892b300e34d44
+
+2024-12-09 14:47:09,261 WARN [dump-ignore] ignore to save to jvm cache. md5 consistent and no new timestamp changed.groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:47:17,506 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:47:17,534 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:47:17,536 INFO [dump] remove  local disk cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 14:47:17,537 INFO [dump] remove  local jvm cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 14:53:37,332 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:53:37,332 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:53:37,332 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:53:37,344 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:53:37,389 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 14:53:37,398 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756017000
+
+2024-12-09 14:53:37,402 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:53:37,406 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 14:53:37,408 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756017000
+
+2024-12-09 14:53:37,408 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:53:37,410 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 14:53:37,412 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756017000
+
+2024-12-09 14:54:51,779 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:51,779 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:51,779 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:51,834 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:51,837 INFO [dump] remove  local disk cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 14:54:51,841 INFO [dump] remove  local jvm cache,groupKey=config-houses.yml+DEFAULT_GROUP 
+
+2024-12-09 14:54:51,841 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:51,842 INFO [dump] remove  local disk cache,groupKey=config-cars.yml+DEFAULT_GROUP 
+
+2024-12-09 14:54:51,844 INFO [dump] remove  local jvm cache,groupKey=config-cars.yml+DEFAULT_GROUP 
+
+2024-12-09 14:54:51,845 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:51,847 INFO [dump] remove  local disk cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-09 14:54:51,849 INFO [dump] remove  local jvm cache,groupKey=config-faces.yml+DEFAULT_GROUP 
+
+2024-12-09 14:54:56,326 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:56,326 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:56,326 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:56,339 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:56,341 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 14:54:56,342 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 14:54:56,342 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:56,344 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 14:54:56,345 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 14:54:56,346 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP
+
+2024-12-09 14:54:56,348 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 14:54:56,349 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:04:35,058 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 15:04:35,058 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 15:04:35,058 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 15:04:35,069 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:04:35,069 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:04:35,069 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:04:35,069 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756096000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 15:04:35,069 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756096000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 15:04:35,069 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756096000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 15:08:07,192 INFO [dump] add formal task. groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55
+
+2024-12-09 15:08:07,193 INFO [dump] add formal task. groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55
+
+2024-12-09 15:08:07,193 INFO [dump] add formal task. groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55
+
+2024-12-09 15:08:07,236 INFO [dump] process formal task. groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55
+
+2024-12-09 15:08:07,240 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 15:08:07,243 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:08:07,243 INFO [dump] process formal task. groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55
+
+2024-12-09 15:08:07,245 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 15:08:07,247 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:08:07,248 INFO [dump] process formal task. groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55
+
+2024-12-09 15:08:07,252 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 15:08:07,254 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:10:34,471 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 15:10:34,471 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 15:10:34,472 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 15:10:34,471 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 15:10:34,472 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 15:10:34,471 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 15:10:34,484 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:10:34,484 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:10:34,484 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:10:34,484 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:10:34,484 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:10:34,484 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:10:34,484 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756096000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 15:10:34,484 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756887000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 15:10:34,484 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756887000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 15:10:34,484 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756096000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 15:10:34,484 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756096000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 15:10:34,484 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756887000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 15:19:21,671 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 15:19:21,671 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 15:19:21,672 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 15:19:21,672 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 15:19:21,671 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 15:19:21,672 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 15:19:21,688 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:19:21,688 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:19:21,688 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756887000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 15:19:21,688 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756887000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 15:19:21,688 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:19:21,688 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:19:21,688 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756096000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 15:19:21,688 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756096000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 15:19:21,690 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:19:21,690 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756096000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 15:19:21,690 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:19:21,690 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756887000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 15:29:01,584 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 15:29:01,584 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 15:29:01,584 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 15:29:01,584 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 15:29:01,584 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 15:29:01,584 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 15:29:01,602 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:29:01,603 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:29:01,604 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756887000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 15:29:01,603 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:29:01,604 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756096000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 15:29:01,604 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756887000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 15:29:01,604 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:29:01,603 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:29:01,604 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756887000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 15:29:01,604 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756096000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 15:29:01,604 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:29:01,605 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756096000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 15:30:35,813 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 15:30:35,813 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 15:30:35,813 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 15:30:35,813 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 15:30:35,813 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 15:30:35,813 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 15:30:35,834 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:30:35,834 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:30:35,835 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756887000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 15:30:35,835 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 15:30:35,835 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:30:35,835 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756096000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 15:30:35,835 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756887000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 15:30:35,835 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:30:35,835 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756096000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 15:30:35,835 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 15:30:35,835 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756887000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 15:30:35,835 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756096000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 20:23:19,709 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 20:23:19,709 INFO [dump] md5 changed, save to disk cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=
+
+2024-12-09 20:23:19,709 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 20:23:19,709 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 20:23:19,709 INFO [dump] md5 changed, save to disk cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=
+
+2024-12-09 20:23:19,709 INFO [dump] md5 changed, save to disk cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=
+
+2024-12-09 20:23:19,724 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 20:23:19,724 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-houses.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=af86a905b9dd9736ac9f197c58ae84fa,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 20:23:19,724 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 20:23:19,724 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 20:23:19,724 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-cars.yml+DEFAULT_GROUP, newMd5=1cc804aadb2eb51bdebd34d077d96c38,oldMd5=,lastModifiedTs=1733756096000
+
+2024-12-09 20:23:19,725 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756096000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 20:23:19,725 INFO [dump-all-ok] config-cars.yml+DEFAULT_GROUP, 1733756887000, length=56,md5UTF8=1cc804aadb2eb51bdebd34d077d96c38
+
+2024-12-09 20:23:19,725 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756096000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+
+2024-12-09 20:23:19,725 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756096000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 20:23:19,725 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=config-faces.yml+DEFAULT_GROUP+ce2bb47e-4538-4d72-a705-adc1ef76fe55, newMd5=e7397a2de6abf79554e21f711bc516fc,oldMd5=,lastModifiedTs=1733756887000
+
+2024-12-09 20:23:19,725 INFO [dump-all-ok] config-faces.yml+DEFAULT_GROUP, 1733756887000, length=71,md5UTF8=e7397a2de6abf79554e21f711bc516fc
+
+2024-12-09 20:23:19,727 INFO [dump-all-ok] config-houses.yml+DEFAULT_GROUP, 1733756887000, length=52,md5UTF8=af86a905b9dd9736ac9f197c58ae84fa
+

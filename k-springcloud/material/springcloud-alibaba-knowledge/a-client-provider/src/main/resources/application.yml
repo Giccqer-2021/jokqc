@@ -1,6 +1,5 @@
 server:
   port: 8080
-
 spring:
   application:
     name: PROVIDER
@@ -8,3 +7,8 @@ spring:
     nacos:
       discovery:
         server-addr: ip6-localhost:8848
+        group: CLIENT_GROUP
+        namespace: ce2bb47e-4538-4d72-a705-adc1ef76fe55
+    sentinel:
+      transport:
+        dashboard: ip6-localhost:8100

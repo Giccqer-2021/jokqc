@@ -6,4 +6,19 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: ip6-localhost:8848
+        server-addr: ip6-localhost:8848 #如果集群多个服务器,可以写多个ip,用逗号隔开
+        group: CLIENT_GROUP
+        namespace: ce2bb47e-4538-4d72-a705-adc1ef76fe55
+    sentinel:
+      web-context-unify: false
+      transport:
+        dashboard: ip6-localhost:8100
+      datasource:
+        flowDS:
+          nacos:
+            server-addr: ip6-localhost:8848/nacos
+            namespace: ce2bb47e-4538-4d72-a705-adc1ef76fe55
+            group-id: FLOW_RULE_GROUP
+            data-id: flow-rule
+            data-type: json
+            rule-type: flow

@@ -2,6 +2,9 @@
 
 *本例使用工程 [idea-gradle知识(默认)](material\idea-gradle-knowledge.bat)* 
 
+> 对于gradle项目, [build.gradle](material\gradle-knowledge\build.gradle) 是该工程的核心配置文件,相当于maven的pom.xml文件
+>  [settings.gradle](material\gradle-knowledge\settings.gradle) 文件用于配置gradle整体工程的结构,如父子模块关系,各模块的项目名等
+
 ## 基础配置
 
 ### plugins 标签

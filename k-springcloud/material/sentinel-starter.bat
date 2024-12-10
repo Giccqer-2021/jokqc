@@ -1,0 +1,2 @@
+java -Dserver.port=8100 -Dcsp.sentinel.dashboard.server=localhost:8100 -Dproject.name=流量控制台 -Dsentinel.dashboard.auth.username=root -Dsentinel.dashboard.auth.password=123456@abcdef -jar sentinel-dashboard-1.8.8.jar
+pause

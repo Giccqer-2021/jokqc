@@ -1,40 +1,40 @@
-2024-12-08 22:21:35,443 INFO notifyConnectTimeout:100
+2024-12-10 11:09:27,905 INFO notifyConnectTimeout:100
 
-2024-12-08 22:21:35,451 INFO notifySocketTimeout:200
+2024-12-10 11:09:27,910 INFO notifySocketTimeout:200
 
-2024-12-08 22:21:35,451 INFO isHealthCheck:true
+2024-12-10 11:09:27,910 INFO isHealthCheck:true
 
-2024-12-08 22:21:35,451 INFO maxHealthCheckFailCount:12
+2024-12-10 11:09:27,910 INFO maxHealthCheckFailCount:12
 
-2024-12-08 22:21:35,451 INFO maxContent:10485760
+2024-12-10 11:09:27,910 INFO maxContent:10485760
 
-2024-12-08 22:22:53,231 WARN DumpService start
+2024-12-10 11:09:33,145 WARN DumpService start
 
-2024-12-08 22:22:53,233 INFO start clear all config-info.
+2024-12-10 11:09:33,146 INFO start clear all config-info.
 
-2024-12-08 22:22:53,256 INFO clear all config-info success.
+2024-12-10 11:09:33,182 INFO clear all config-info success.
 
-2024-12-08 22:22:53,263 INFO clear all config-info-tenant success.
+2024-12-10 11:09:33,189 INFO clear all config-info-tenant success.
 
-2024-12-08 22:22:53,343 INFO All dump page size is set to 350 according to mem limit 4054 MB
+2024-12-10 11:09:33,209 INFO All dump page size is set to 350 according to mem limit 4054 MB
 
-2024-12-08 22:22:53,344 INFO start dump all config-info...
+2024-12-10 11:09:33,210 INFO start dump all config-info...
 
-2024-12-08 22:22:53,381 INFO [all-dump] submit all task for 837676294249402368 / 837676294249402368, dbTime=35,diskTime=2
+2024-12-10 11:09:33,236 INFO [all-dump] submit all task for 26 / 26, dbTime=25,diskTime=1
 
-2024-12-08 22:22:53,381 INFO [all-dump] wait 6 dump tasks to be finished
+2024-12-10 11:09:33,237 INFO [all-dump] wait 6 dump tasks to be finished
 
-2024-12-08 22:22:54,394 INFO success to  dump all config-info。
+2024-12-10 11:09:34,237 INFO success to  dump all config-info。
 
-2024-12-08 22:22:54,394 INFO start clear all config-info-beta.
+2024-12-10 11:09:34,237 INFO start clear all config-info-beta.
 
-2024-12-08 22:22:54,394 INFO clear all config-info-beta success.
+2024-12-10 11:09:34,237 INFO clear all config-info-beta success.
 
-2024-12-08 22:22:54,395 INFO clear all config-info-beta-tenant success.
+2024-12-10 11:09:34,237 INFO clear all config-info-beta-tenant success.
 
-2024-12-08 22:22:54,412 INFO start clear all config-info-tag.
+2024-12-10 11:09:34,248 INFO start clear all config-info-tag.
 
-2024-12-08 22:22:54,412 INFO clear all config-info-tag success.
+2024-12-10 11:09:34,248 INFO clear all config-info-tag success.
 
-2024-12-08 22:22:54,412 INFO clear all config-info-tag-tenant success.
+2024-12-10 11:09:34,248 INFO clear all config-info-tag-tenant success.
 

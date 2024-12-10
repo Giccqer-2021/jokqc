@@ -1,0 +1,402 @@
+2024-12-09 00:01:25,305 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 00:01:25,305 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 00:01:25,306 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 00:01:25,306 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 00:01:25,902 INFO Load instance extension handler []
+
+2024-12-09 11:52:57,179 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 11:52:58,621 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1722)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-12-09 11:52:58,621 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1722)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-12-09 11:52:58,621 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1722)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-12-09 11:52:58,621 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1722)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-12-09 11:52:58,621 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1722)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-12-09 11:52:58,621 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1722)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-12-09 11:52:58,621 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1722)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-12-09 11:53:18,316 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 11:53:19,581 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1722)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-12-09 11:53:19,581 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1722)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-12-09 11:53:19,581 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1722)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-12-09 12:47:46,645 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 12:47:46,645 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 12:47:46,646 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 12:47:46,646 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 12:47:47,250 INFO Load instance extension handler []
+
+2024-12-09 12:50:03,216 INFO Client connection 1733719803088_0:0:0:0:0:0:0:1_57722 connect
+
+2024-12-09 12:50:03,274 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='CONSUMER', ephemeral=true, revision=0}, 1733719803088_0:0:0:0:0:0:0:1_57722
+
+2024-12-09 12:51:35,242 INFO Client connection 1733719803088_0:0:0:0:0:0:0:1_57722 disconnect, remove instances and subscribers
+
+2024-12-09 12:52:29,235 INFO Client connection 1733719949137_0:0:0:0:0:0:0:1_57791 connect
+
+2024-12-09 12:52:29,267 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='CONSUMER', ephemeral=true, revision=2}, 1733719949137_0:0:0:0:0:0:0:1_57791
+
+2024-12-09 12:53:05,809 INFO Client connection 1733719949137_0:0:0:0:0:0:0:1_57791 disconnect, remove instances and subscribers
+
+2024-12-09 12:53:12,426 INFO Client connection 1733719992345_0:0:0:0:0:0:0:1_64939 connect
+
+2024-12-09 12:53:12,457 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='CONSUMER', ephemeral=true, revision=4}, 1733719992345_0:0:0:0:0:0:0:1_64939
+
+2024-12-09 12:54:20,117 INFO Client connection 1733719992345_0:0:0:0:0:0:0:1_64939 disconnect, remove instances and subscribers
+
+2024-12-09 12:54:27,069 INFO Client connection 1733720066981_0:0:0:0:0:0:0:1_64977 connect
+
+2024-12-09 12:54:27,103 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='CONSUMER', ephemeral=true, revision=6}, 1733720066981_0:0:0:0:0:0:0:1_64977
+
+2024-12-09 12:55:50,219 INFO Client connection 1733720066981_0:0:0:0:0:0:0:1_64977 disconnect, remove instances and subscribers
+
+2024-12-09 12:55:56,229 INFO Client connection 1733720156133_0:0:0:0:0:0:0:1_65022 connect
+
+2024-12-09 12:55:56,261 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='CONSUMER', ephemeral=true, revision=8}, 1733720156133_0:0:0:0:0:0:0:1_65022
+
+2024-12-09 12:56:03,520 INFO Client connection 1733720156133_0:0:0:0:0:0:0:1_65022 disconnect, remove instances and subscribers
+
+2024-12-09 13:37:43,690 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 13:37:43,690 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 13:37:43,691 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 13:37:43,691 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 13:37:44,141 INFO Load instance extension handler []
+
+2024-12-09 13:38:25,618 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 13:38:25,619 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 13:38:25,620 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 13:38:25,620 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 13:38:26,197 INFO Load instance extension handler []
+
+2024-12-09 13:39:12,859 INFO Client connection 1733722752733_0:0:0:0:0:0:0:1_57912 connect
+
+2024-12-09 13:39:12,913 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='CONSUMER', ephemeral=true, revision=0}, 1733722752733_0:0:0:0:0:0:0:1_57912
+
+2024-12-09 13:40:27,485 INFO Client connection 1733722752733_0:0:0:0:0:0:0:1_57912 disconnect, remove instances and subscribers
+
+2024-12-09 13:40:33,624 INFO Client connection 1733722833518_0:0:0:0:0:0:0:1_55370 connect
+
+2024-12-09 13:40:33,665 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='CONSUMER', ephemeral=true, revision=2}, 1733722833518_0:0:0:0:0:0:0:1_55370
+
+2024-12-09 13:40:59,038 INFO Client connection 1733722833518_0:0:0:0:0:0:0:1_55370 disconnect, remove instances and subscribers
+
+2024-12-09 13:42:55,829 WARN namespace : public, [DEFAULT_GROUP@@CONSUMER] services are automatically cleaned
+
+2024-12-09 13:43:42,064 INFO Client connection 1733723021968_0:0:0:0:0:0:0:1_53381 connect
+
+2024-12-09 13:43:42,092 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='CONSUMER', ephemeral=true, revision=0}, 1733723021968_0:0:0:0:0:0:0:1_53381
+
+2024-12-09 13:43:43,617 INFO Client connection 1733723021968_0:0:0:0:0:0:0:1_53381 disconnect, remove instances and subscribers
+
+2024-12-09 13:44:55,856 WARN namespace : ce2bb47e-4538-4d72-a705-adc1ef76fe55, [CLIENT_GROUP@@CONSUMER] services are automatically cleaned
+
+2024-12-09 13:45:04,681 INFO Client connection 1733723104590_0:0:0:0:0:0:0:1_53469 connect
+
+2024-12-09 13:45:04,710 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='CONSUMER', ephemeral=true, revision=0}, 1733723104590_0:0:0:0:0:0:0:1_53469
+
+2024-12-09 13:45:18,033 INFO Client connection 1733723104590_0:0:0:0:0:0:0:1_53469 disconnect, remove instances and subscribers
+
+2024-12-09 13:52:13,871 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 13:52:13,871 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 13:52:13,872 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 13:52:13,872 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 13:52:14,280 INFO Load instance extension handler []
+
+2024-12-09 14:05:09,241 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 14:05:09,241 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 14:05:09,242 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 14:05:09,242 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 14:05:09,796 INFO Load instance extension handler []
+
+2024-12-09 14:12:40,781 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 14:12:40,781 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 14:12:40,782 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 14:12:40,782 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 14:12:41,217 INFO Load instance extension handler []
+
+2024-12-09 14:45:45,634 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 14:45:45,634 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 14:45:45,634 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 14:45:45,634 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 14:45:46,092 INFO Load instance extension handler []
+
+2024-12-09 14:53:11,232 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 14:53:11,232 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 14:53:11,233 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 14:53:11,233 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 14:53:11,761 INFO Load instance extension handler []
+
+2024-12-09 15:04:34,256 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 15:04:36,758 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 15:04:36,759 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 15:04:36,759 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 15:04:36,759 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 15:04:37,154 INFO Load instance extension handler []
+
+2024-12-09 15:04:43,365 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 15:04:45,366 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 15:04:47,379 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 15:04:53,384 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 15:04:53,385 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 192.168.116.1:8848]
+
+2024-12-09 15:04:53,400 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 192.168.116.1:8848], new: [192.168.116.1:8848]
+
+2024-12-09 15:05:25,446 INFO Client connection 1733727925235_0:0:0:0:0:0:0:1_60284 connect
+
+2024-12-09 15:05:25,533 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=0}, 1733727925235_0:0:0:0:0:0:0:1_60284
+
+2024-12-09 15:05:36,943 INFO Client connection 1733727936855_0:0:0:0:0:0:0:1_60463 connect
+
+2024-12-09 15:05:36,975 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='CONSUMER', ephemeral=true, revision=0}, 1733727936855_0:0:0:0:0:0:0:1_60463
+
+2024-12-09 15:10:33,413 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8850, 127.0.0.1:8852, 127.0.0.1:8854, 192.168.116.1:8848], new: [127.0.0.1:8850, 127.0.0.1:8852, 127.0.0.1:8854, 192.168.116.1:8848]
+
+2024-12-09 15:10:36,162 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 15:10:36,162 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 15:10:36,163 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 15:10:36,163 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 15:10:36,584 INFO Load instance extension handler []
+
+2024-12-09 15:10:38,754 INFO Client connection 1733728238731_0:0:0:0:0:0:0:1_64074 connect
+
+2024-12-09 15:10:38,760 INFO Client connection 1733728238731_0:0:0:0:0:0:0:1_64072 connect
+
+2024-12-09 15:10:40,194 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='CONSUMER', ephemeral=true, revision=0}, 1733728238731_0:0:0:0:0:0:0:1_64072
+
+2024-12-09 15:10:40,251 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=0}, 1733728238731_0:0:0:0:0:0:0:1_64074
+
+2024-12-09 15:10:42,998 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8850, 127.0.0.1:8852, 127.0.0.1:8854, 192.168.116.1:8848], new: [127.0.0.1:8850, 127.0.0.1:8852, 127.0.0.1:8854, 192.168.116.1:8848]
+
+2024-12-09 15:10:45,008 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8850, 127.0.0.1:8852, 127.0.0.1:8854, 192.168.116.1:8848], new: [127.0.0.1:8850, 127.0.0.1:8852, 127.0.0.1:8854, 192.168.116.1:8848]
+
+2024-12-09 15:10:47,018 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8850, 127.0.0.1:8852, 127.0.0.1:8854, 192.168.116.1:8848], new: [127.0.0.1:8850, 127.0.0.1:8852, 127.0.0.1:8854, 192.168.116.1:8848]
+
+2024-12-09 15:10:53,014 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8850, 127.0.0.1:8852, 127.0.0.1:8854, 192.168.116.1:8848], new: [127.0.0.1:8850, 127.0.0.1:8854, 192.168.116.1:8848]
+
+2024-12-09 15:10:53,014 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8850, 127.0.0.1:8854, 192.168.116.1:8848], new: [127.0.0.1:8850, 192.168.116.1:8848]
+
+2024-12-09 15:10:53,044 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8850, 192.168.116.1:8848], new: [192.168.116.1:8848]
+
+2024-12-09 15:19:20,440 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 15:19:23,369 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 15:19:23,369 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 15:19:23,370 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 15:19:23,370 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 15:19:23,906 INFO Load instance extension handler []
+
+2024-12-09 15:19:27,951 INFO Client connection 1733728767930_0:0:0:0:0:0:0:1_55071 connect
+
+2024-12-09 15:19:27,956 INFO Client connection 1733728767930_0:0:0:0:0:0:0:1_55070 connect
+
+2024-12-09 15:19:29,707 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=0}, 1733728767930_0:0:0:0:0:0:0:1_55071
+
+2024-12-09 15:19:29,707 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='CONSUMER', ephemeral=true, revision=0}, 1733728767930_0:0:0:0:0:0:0:1_55070
+
+2024-12-09 15:19:30,297 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 15:19:32,304 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 15:19:34,312 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 15:19:40,305 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8850, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 127.0.0.1:8851, 192.168.116.1:8848]
+
+2024-12-09 15:19:40,305 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 127.0.0.1:8851, 192.168.116.1:8848], new: [127.0.0.1:8849, 192.168.116.1:8848]
+
+2024-12-09 15:19:40,336 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8849, 192.168.116.1:8848], new: [192.168.116.1:8848]
+
+2024-12-09 15:25:52,460 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.116.1:8848], new: [127.0.0.1:8848, 192.168.116.1:8848]
+
+2024-12-09 15:25:53,847 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8848, 192.168.116.1:8848], new: [127.0.0.1:8848, 192.168.116.1:8848]
+
+2024-12-09 15:29:00,268 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8848, 127.0.0.1:8849, 127.0.0.1:8850, 192.168.116.1:8848], new: [127.0.0.1:8848, 127.0.0.1:8849, 127.0.0.1:8850, 192.168.116.1:8848]
+
+2024-12-09 15:29:03,295 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 15:29:03,295 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 15:29:03,296 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 15:29:03,296 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 15:29:03,755 INFO Load instance extension handler []
+
+2024-12-09 15:29:08,528 INFO Client connection 1733729348520_0:0:0:0:0:0:0:1_60774 connect
+
+2024-12-09 15:29:08,543 INFO Client connection 1733729348536_0:0:0:0:0:0:0:1_60775 connect
+
+2024-12-09 15:29:10,315 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=0}, 1733729348536_0:0:0:0:0:0:0:1_60775
+
+2024-12-09 15:29:10,315 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='CONSUMER', ephemeral=true, revision=0}, 1733729348520_0:0:0:0:0:0:0:1_60774
+
+2024-12-09 15:29:10,525 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8848, 127.0.0.1:8849, 127.0.0.1:8850, 192.168.116.1:8848], new: [127.0.0.1:8848, 127.0.0.1:8849, 127.0.0.1:8850, 192.168.116.1:8848]
+
+2024-12-09 15:29:12,539 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8848, 127.0.0.1:8849, 127.0.0.1:8850, 192.168.116.1:8848], new: [127.0.0.1:8848, 127.0.0.1:8849, 127.0.0.1:8850, 192.168.116.1:8848]
+
+2024-12-09 15:29:14,583 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8848, 127.0.0.1:8849, 127.0.0.1:8850, 192.168.116.1:8848], new: [127.0.0.1:8848, 127.0.0.1:8849, 127.0.0.1:8850, 192.168.116.1:8848]
+
+2024-12-09 15:29:20,548 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8848, 127.0.0.1:8849, 127.0.0.1:8850, 192.168.116.1:8848], new: [127.0.0.1:8848, 127.0.0.1:8850, 192.168.116.1:8848]
+
+2024-12-09 15:29:20,549 INFO [NACOS-DISTRO] healthy server list changed, old: [127.0.0.1:8848, 127.0.0.1:8850, 192.168.116.1:8848], new: [127.0.0.1:8848, 192.168.116.1:8848]
+
+2024-12-09 15:30:18,519 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.116.1:8848, 192.168.116.1:8849, 192.168.116.1:8850], new: [192.168.116.1:8848, 192.168.116.1:8849, 192.168.116.1:8850]
+
+2024-12-09 15:30:37,601 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 15:30:37,601 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 15:30:37,602 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 15:30:37,602 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 15:30:37,993 INFO Load instance extension handler []
+
+2024-12-09 15:30:40,872 INFO Client connection 1733729440845_0:0:0:0:0:0:0:1_61487 connect
+
+2024-12-09 15:30:40,892 INFO Client connection 1733729440844_0:0:0:0:0:0:0:1_61486 connect
+
+2024-12-09 15:30:43,583 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=0}, 1733729440844_0:0:0:0:0:0:0:1_61486
+
+2024-12-09 15:30:43,583 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='CONSUMER', ephemeral=true, revision=0}, 1733729440845_0:0:0:0:0:0:0:1_61487
+
+2024-12-09 15:30:44,352 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.116.1:8848, 192.168.116.1:8849, 192.168.116.1:8850], new: [192.168.116.1:8848, 192.168.116.1:8849, 192.168.116.1:8850]
+
+2024-12-09 15:30:46,358 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.116.1:8848, 192.168.116.1:8849, 192.168.116.1:8850], new: [192.168.116.1:8848, 192.168.116.1:8849, 192.168.116.1:8850]
+
+2024-12-09 15:30:52,385 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.116.1:8848, 192.168.116.1:8849, 192.168.116.1:8850], new: [192.168.116.1:8848, 192.168.116.1:8849]
+
+2024-12-09 15:30:54,376 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.116.1:8848, 192.168.116.1:8849], new: [192.168.116.1:8848]
+
+2024-12-09 20:23:21,900 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-12-09 20:23:21,900 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-12-09 20:23:21,901 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-12-09 20:23:21,901 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-12-09 20:23:22,333 INFO Load instance extension handler []
+
+2024-12-09 20:23:34,109 INFO Client connection 1733747013917_0:0:0:0:0:0:0:1_55609 connect
+
+2024-12-09 20:23:34,192 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=0}, 1733747013917_0:0:0:0:0:0:0:1_55609
+
+2024-12-09 20:23:47,737 INFO Client connection 1733747027658_0:0:0:0:0:0:0:1_55627 connect
+
+2024-12-09 20:23:47,767 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='CONSUMER', ephemeral=true, revision=0}, 1733747027658_0:0:0:0:0:0:0:1_55627
+
+2024-12-09 20:43:43,906 INFO Client connection 1733747013917_0:0:0:0:0:0:0:1_55609 disconnect, remove instances and subscribers
+
+2024-12-09 20:43:50,584 INFO Client connection 1733748230490_0:0:0:0:0:0:0:1_54227 connect
+
+2024-12-09 20:43:50,618 INFO Client change for service Service{namespace='ce2bb47e-4538-4d72-a705-adc1ef76fe55', group='CLIENT_GROUP', name='PROVIDER', ephemeral=true, revision=2}, 1733748230490_0:0:0:0:0:0:0:1_54227
+
+2024-12-09 20:51:06,791 INFO Client connection 1733748230490_0:0:0:0:0:0:0:1_54227 disconnect, remove instances and subscribers
+
+2024-12-09 20:51:06,851 INFO Client connection 1733747027658_0:0:0:0:0:0:0:1_55627 disconnect, remove instances and subscribers
+
+2024-12-09 20:52:52,318 WARN namespace : ce2bb47e-4538-4d72-a705-adc1ef76fe55, [CLIENT_GROUP@@PROVIDER] services are automatically cleaned
+
+2024-12-09 20:52:52,322 WARN namespace : ce2bb47e-4538-4d72-a705-adc1ef76fe55, [CLIENT_GROUP@@CONSUMER] services are automatically cleaned
+
